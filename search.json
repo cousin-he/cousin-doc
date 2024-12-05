@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "best-pracs.html",
+    "href": "best-pracs.html",
+    "title": "Best practices",
+    "section": "",
+    "text": "Documents and guides summarising technical best practices."
+  },
+  {
+    "objectID": "apis.html#miapee",
+    "href": "apis.html#miapee",
+    "title": "APIs",
+    "section": "MIAPEE",
+    "text": "MIAPEE"
+  },
+  {
+    "objectID": "apis.html#miapee-1",
+    "href": "apis.html#miapee-1",
+    "title": "APIs",
+    "section": "MIAPEE",
+    "text": "MIAPEE"
+  },
+  {
+    "objectID": "tools.html#jbrowse",
+    "href": "tools.html#jbrowse",
+    "title": "Tools",
+    "section": "JBrowse",
+    "text": "JBrowse"
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "Blog entries describing major events and updates."
+  },
+  {
+    "objectID": "use-cases.html",
+    "href": "use-cases.html",
+    "title": "Use cases",
+    "section": "",
+    "text": "Description of relevant use cases."
+  },
+  {
+    "objectID": "docs.html",
+    "href": "docs.html",
+    "title": "Documentation",
+    "section": "",
+    "text": "Links to relevant technical documentation."
+  },
+  {
+    "objectID": "smart-cousin.html#overall-architecture",
+    "href": "smart-cousin.html#overall-architecture",
+    "title": "Smart COUSIN",
+    "section": "Overall architecture",
+    "text": "Overall architecture"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This site has been generated with Quarto, a software tool for scientific technical documentation suitable for different programming languages. To learn more about Quarto websites visit https://quarto.org/docs/websites.\nCOUSIN has also created a practical Quarto workshop, introducing its applications for scientific documentation and publishing."
+  },
+  {
+    "objectID": "about.html#creating-this-website",
+    "href": "about.html#creating-this-website",
+    "title": "About",
+    "section": "",
+    "text": "This site has been generated with Quarto, a software tool for scientific technical documentation suitable for different programming languages. To learn more about Quarto websites visit https://quarto.org/docs/websites.\nCOUSIN has also created a practical Quarto workshop, introducing its applications for scientific documentation and publishing."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "COUSIN project - Technical docs",
+    "section": "",
+    "text": "This website centralizes technical documentation, use cases, best practices and training materials created in the HE COUSIN research project."
+  }
+]
