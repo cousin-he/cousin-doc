@@ -1,0 +1,9 @@
+---
+title: "COUSIN project - Technical docs"
+---
+
+This website centralizes technical documentation, use cases, best
+practices and training materials created in the 
+[HE COUSIN](https://cousinproject.eu/) research project.
+
+

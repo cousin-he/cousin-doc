@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "cousin-doc"
+  navbar:
+    left:
+      #- href: index.qmd
+      #  text: Home
+      - about.qmd
+      - text: "Smart COUSIN"
+        menu:
+        - href: smart-cousin.qmd
+          text: Architecture
+        - tools.qmd
+        - apis.qmd
+      - href: docs.qmd
+        text: Docs
+      - href: use-cases.qmd
+        text: "Use cases"
+      - href: best-pracs.qmd
+        text: "Best practices"
+      - news.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

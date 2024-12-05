@@ -1,0 +1,8 @@
+---
+title: "Smart COUSIN"
+---
+
+## Introduction
+
+
+## Overall architecture

@@ -1,0 +1,12 @@
+---
+title: "About"
+---
+
+## Creating this website
+
+This site has been generated with [Quarto](https://quarto.org), a software tool for
+scientific technical documentation suitable for different programming languages. 
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+COUSIN has also created a practical [Quarto workshop](https://cousin-he.github.io/quarto-workshop/),
+introducing its applications for scientific documentation and publishing.
