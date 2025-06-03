@@ -12,15 +12,24 @@ website:
         menu:
         - href: smart-cousin.qmd
           text: Architecture
-        - tools.qmd
-        - apis.qmd
-      - href: docs.qmd
-        text: Docs
+        - text: Tools
+          menu:
+              - text: Germinate
+                href: https://germinateplatform.github.io/get-germinate/
+              - text: Gatekeeper
+                href: https://www.gatekeeperhq.com/
+        - Standards.qmd
+        - Templates.qmd
+      - href: data-curation.qmd
+        text: "Data Curation"
+
       - href: use-cases.qmd
         text: "Use cases"
-      - href: best-pracs.qmd
+      - href: best-practices.qmd
         text: "Best practices"
       - news.qmd
+    page-footer:
+    center: "© 2025 Smart COUSIN - Germinate Platform. All rights reserved."
 
 format:
   html:

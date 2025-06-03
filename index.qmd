@@ -7,3 +7,38 @@ practices and training materials created in the
 [HE COUSIN](https://cousinproject.eu/) research project.
 
 
+---
+
+# 🌱 Germinate: Biological Data Management Platform
+
+**Germinate** (Genomic and Environmental Research Manager) is a modern, open-source platform designed to **organize, manage, and explore biological data** with ease.
+
+Our goal is to support researchers and institutions in **handling complex datasets** from genomic experiments, environmental sampling, and large-scale biology studies.
+
+---
+
+## 🚀 Key Features
+
+- 🔍 Powerful similarity search and filtering tools
+- 🧬 Optimized for large-scale biological datasets
+- 🔐 Secure and collaborative data sharing
+- 📊 Integrated visualization dashboards
+
+---
+
+## 📝 Latest Blog Posts
+
+Check out our latest articles and updates on the [Blog](blog.qmd)!
+
+- *How Germinate streamlines data workflows in genomics*
+- *Data governance in biology: best practices*
+- *Behind the scenes: building a scalable data pipeline*
+
+---
+
+## 💡 Get Involved
+
+Germinate is a collaborative project. If you're a biologist, developer, or data scientist, [join us](mailto:team@germ-platform.org) to contribute!
+
+
+
