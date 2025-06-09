@@ -1,10 +1,216 @@
 ---
 title: "Templates"
 ---
+## Environmental data
 
-## Genotypes
+METADATA
+
+METADATA A portion of the Dublin Core Metadata Initiative Terms are included in this tab. While VALUE is the column that should hold your data, LABEL and DEFINITION give information about the term. Please take note that the fields Title and Description are mandatory. These will be used in Germinate to describe the dataset.
 
 
+MIAPPE also includes the following fields: Investigation Title, Investigation Description, Investigation unique ID, Associated data file link, Associated data file description, and Associated data file version.
+
+ATTRIBUTES
+
+You can specify any extra details about the environmental dataset using attributes. This could include information about pesticides, fertilizers, irrigation, or any other management. Each row should have one "attribute" added. Either numeric, date, text, or categorical must be the type.
+
+LOCATION
+
+You can specify (optionally) which geographic locations you want to link to this dataset using this tab. Use a different copy of this template for each site if you want to submit data from more than one.
+
+
+COLLABORATORS
+To specify who deserves credit for their contributions to this dataset, use this tab. Please be aware that the fields for first and last names are mandatory.
+
+ENVIRONMENT VARIABLES
+The characteristics are described here. Note that the only fields that are required are Name and Data Type. Only one of the following four choices may be selected as the Data Type: text, date, numeric, or categorical. Select text if you're not sure. Both the unit abbreviation and the short name are restricted to ten characters.
+
+DATA
+
+The actual environmental data is defined on this tab. Rows from A2 down are considered germplasm. To identify the material, please use the ACCENUMB field from the germplasm MCPD standard. From D2 to the right, traits are represented by columns. To determine the trait, please use the value from the ENVIRONMENT VARIABLES sheet's Name column.
+
+The date on which the environmental data was recorded is indicated in the Date column. This is a required field.
+
+Each cell may contain text, dates, integers, or floating point numbers. When it comes to dates, we advise using the YYYY-MM-DD format (for example, 2020-01-02 for January 2, 2020).
+
+An empty cell should be used to indicate missing data (not NA or a dash (-) or anything else).
+
+## Genotypic data
+Two formats are available for genotypic data because of the potentially high data volumes. We advise using the Excel template for smaller datasets, but you will need to use the plain text file for larger datasets (because of Excel's column number restriction). The format of the plain text file is identical to that of the Excel spreadsheet's DATA tab. Additionally, headers can contain some of the data from the METADATA sheet.
+
+METADATA
+
+A selection of the Dublin Core Metadata Initiative Terms are included in this tab. VALUE is the column that should hold your data, while LABEL and DEFINITION give information about the term. Please take note that the fields Title and Description are mandatory. These will be used in Germinate to describe the dataset.
+
+MIAPPE also includes the following fields: Investigation Title, Investigation Description, Investigation unique ID, Associated data file link, Associated data file description, and Associated data file version.
+
+Within Germinate, the map is created using the following elements: Map Name, Marker Technology, Genetic or Physical, and Map Units.
+
+LOCATION
+
+You can specify a (optional) geographic location that you would like to link to this dataset using this tab.
+
+COLLABORATORS
+
+
+To specify who deserves credit for their contributions to this dataset, use this tab. Please be aware that the fields for first and last names are mandatory.
+
+
+DATA
+
+The actual genotype data is defined on this sheet. Rows from A4 down are referred to as germplasm. To identify the material, please use the ACCENUMB field from the germplasm MCPD standard. Columns from B3 to the right are designated as markers. Kindly identify the marker by its name.
+
+An optional map that complements the genotypic data is defined in rows 1 and 2. Don't remove the row identifiers A1 and A2, but leave the rows empty if you're not using a map. The names of the linkage groups or chromosomes indicate their position, which can be either genetic or physical.
+
+Next, beginning with B4, the allele calls are entered into the cells. The allele calls, such as A, T/A, and G/C, should be present in every cell; ideally, they should be two nucleotides for heterozygous data and one for homozygous data. This should be supplied if the nucleotides are unknown (for example, only A/B or 0/1 data are available). An empty cell—not NA, a dash (-), or anything else—should be used to indicate missing data.
+
+
+
+Text format
+
+Using tab as the delimiter, it is possible to replicate the format of the DATA tab in a plain text file for larger datasets. Please define the metadata for this dataset using the header rows listed below:
+
+
+# dataset = Dataset name goes here
+# map = Map name here
+# markerType = e.g. SNP
+
+Hapmap format...
 ## Phenotypes
 
 ## Geo
+
+## Trials data
+
+METADATA
+A selection of the Dublin Core Metadata Initiative Terms are included in this tab. VALUE is the column that should hold your data, while LABEL and DEFINITION give information about the term. Please take note that the fields Title and Description are mandatory. These will be used in Germinate to describe the dataset.
+
+MIAPPE also includes the following fields: Investigation Title, Investigation Description, Investigation unique ID, Associated data file link, Associated data file description, and Associated data file version.
+
+
+
+ATTRIBUTES
+
+You can specify any extra details about the trial using attributes. This could include information about pesticides, fertilizers, irrigation, or any other management. Each row should have one "attribute" added. Either numeric, date, text, or categorical must be the type.
+
+
+LOCATION
+
+You can specify (optionally) the geographic locations you want to link to this dataset using this tab. If the trial was conducted at different locations, please specify them here and include their name in the Location column of the DATA sheet; if not, leave the Location column blank.
+
+COLLABORATORS
+
+To specify who deserves credit for their contributions to this dataset, use this tab. Please be aware that the fields for first and last names are mandatory.
+
+PHENOTYPES
+
+The characteristics are described here. Note that the only fields that are required are Name and Data Type. Only one of the following four choices may be selected as the Data Type: text, date, numeric, or categorical. Select text if you're not sure. Both the unit abbreviation and the short name are restricted to ten characters.
+
+
+DATA
+
+The actual trial data is defined using this tab. Rows from A2 down are considered germplasm. To identify the material, please use the ACCENUMB field from the germplasm MCPD standard. From D2 to the right, traits are represented by columns. To determine the trait, please use the value from the Name column of the PHENOTYPES sheet.
+
+The following columns are optional: Block, Row, Column, Treatment, and Location. If you wish to store data for specific replicates, you can use Rep and Block. Please enter 1 in this column if you have no representatives. The location within a trial can be stored using Row and Column. Any free-text treatment description that has been applied to this person may be entered in the Treatment column. The trial site is indicated by the location. This column is used to specify which trial a data point comes from in the event that the trial is multi-site. In the LOCATION sheet, please list all of the locations mentioned in this column.
+
+The DATA sheet's latitude, longitude, and elevation can be used to pinpoint the precise location of the data point's generation or collection. The location of a germplasm within the trial will be plotted on a map using this information. Please take note that this is not the same as the locations listed on the LOCATION sheet, which pertain to the entire dataset, while the Latitude, Longitude, and Elevation columns are specific to the data point.
+
+Even if you are not providing any data for the Rep, Block, Treatment, or Location columns, kindly do not remove them.
+
+Each cell may contain text, dates, integers, or floating point numbers. When it comes to dates, we advise using the YYYY-MM-DD format (for example, 2020-01-02 for January 2, 2020).
+
+An empty cell—not NA, a dash (-), or anything else—should be used to indicate missing data.
+----------------------------------------
+Pedigree data
+
+METADATA
+
+A selection of the Dublin Core Metadata Initiative Terms are included in this tab. VALUE is the column that should hold your data, while LABEL and DEFINITION give information about the term. Please take note that the fields Title and Description are mandatory. These will be used in Germinate to describe the dataset.
+
+MIAPPE also includes the following fields: Investigation Title, Investigation Description, Investigation unique ID, Associated data file link, Associated data file description, and Associated data file version.
+
+ATTRIBUTES
+
+You can specify any extra details about the trial using attributes. This could include information about pesticides, fertilizers, irrigation, or any other management. Each row should have one "attribute" added. Either numeric, date, text, or categorical must be the type.
+
+COLLABORATORS
+
+To specify who deserves credit for their contributions to this dataset, use this tab. Please be aware that the fields for first and last names are mandatory.
+
+DATA
+If you know who created each germplasm, you use this tab. Please be aware that every parent must be listed in the Germinate database. Please use the DATA-STRING tab, where you can enter the pedigree string in any notation, such as Lamacraft or Purdy, if you do not want them to be included in the database.
+
+Rows from A2 down are considered germplasm. To identify the material, please use the ACCENUMB field from the germplasm MCPD standard. Required columns include ACCENUMB, Pedigree Description, and at least Parent 1 ACCENUMB. If known, Parent 2 ACCENUMB may also be utilized.
+
+DATA-STRING
+
+Rows from A2 down are considered germplasm. It is necessary to have the Pedigree string and Pedigree Notation columns.
+
+
+Image data
+
+Germplasm and traits can be linked to images. Although the Germinate web interface allows you to upload images, there are instances when using our data templates to upload images in bulk is more convenient.
+
+In contrast to most other templates, the one used for image data upload requires that the images to be uploaded be zipped up (in ZIP format). The template file, which MUST be called images.xlsx, and all of the images without any subfolders are contained in a single.zip file that you are uploading.
+
+Six columns make up the template: Reference Id, Reference Name, Image reference type, Image filename, Image description, and Tags. Of these, the following are required: image reference type, image filename, and either reference name or reference ID.
+
+Each column is explained as follows:
+
+Reference ID: The database reference id of the object you are referring to, such as germinatebase.id if your image reference type is germplasm.
+Reference Name: The Reference Name can be provided as an alternative to the Id. For instance, this must match the MCPD ACCENUMB if you are referring to germplasm.
+Type of image reference: Depending on what the image depicts, this could be either phenotypes (for traits) or germinatebase (for germplasm).
+Image filename: The image's file name. Just the filename with the extension, such as P1031523.JPG, is included here; the path is not.
+Image description: An optional description of what the image shows. This can, for example, contain credit information.
+Tags: A list of tags that belong to this image, separated by commas. Instead of using spaces, we advise using all-lowercase tags with dashes, such as flower or whole-plant.
+
+-------------------------------------------
+Group data
+
+
+Groups can be defined and stored in the database as subsets of germplasm, markers, or locations. These groups are used to subset the data during export and data visualization. Each tab has the same structure:
+
+The item identifier appears in the first column, which runs from A4 down. To determine which identifier to use, see the sections that follow.
+
+The group name appears in the first row, from B1 to the right.
+
+The group's visibility is shown in the second row, which runs from B2 to the right. A group that is set to "private" will be hidden from everyone but the person uploading the data template, whereas a group that is set to "public" will be visible to everyone else.
+
+The intersection cells between the item row and the group column should be filled with a "x" to indicate which item should be added to each group.
+
+GERMPLASM
+According to the MCPD template, the germplasm's ACCENUMB is listed in the first column, which runs from A4 down.
+
+MARKS
+The marker name as given in the allele calls template appears in the first column, which runs from A4 down.
+
+LOCATIONS
+According to the MCPD template (COLLSITE), the location name appears in the first column, which runs from A4 down.
+
+
+
+----------------------------------------------------
+
+Trials geotiffs
+
+Geotiffs, or georeferenced images, are frequently used to store raster data in a spatial context. Drone imagery and unmanned aerial vehicles (UAVs) are two examples. Geotiffs can be linked to climate variables or traits or a particular dataset (such as a trial).
+
+The geotiff upload data template is a little different from most other templates because it must be compressed (in ZIP format) along with the geotiffs that need to be uploaded. The template file, which MUST be named geotiffs.xlsx, and all of the geotiff images without any subfolders are contained in a single.zip file that you are uploading.
+
+
+The following are required fields in the seven columns of the template: Dataset Id, Reference Id, Reference Name, Image reference type, Image filename, Image description, and Recording Date. filename for the image.
+
+Please enter the dataset ID in the Dataset Id column and the date the geotiff was created in the Recording Date column (cell must be formatted as 'Text') if the geotiff is to be linked to a particular dataset (such as a trial).
+
+Please choose the appropriate image reference type and then fill in EITHER Reference Id OR Reference Name if the geotiff is to be linked to a particular trait or climate variable.
+
+Each column is explained as follows:
+
+Dataset Id: The database ID of the dataset to which this geotiff belongs.
+Reference ID: The database reference id of the object you are referring to, for example, phenotypes.id if your image reference type is phenotypes, and climates.id if it is climates.
+Reference Name: The Reference Name can be provided as an alternative to the Id. For instance, the Name column in the trials data template sheet PHENOTYPES must match if you are referring to a phenotype.
+Type of image reference: Depending on what the image depicts, this could be either phenotypes (for traits) or climates (for climate variables).
+Image filename: This is the image's file name. This only contains the filename with the extension, such as GS1_2022-01-01.geotiff, and excludes the path.
+Image description: An optional explanation of what the picture depicts. For instance, credit information may be included.
+Recording Date: The date on which the geotiff was created. This must be mentioned in the May YYYYMMDD, which is 20220103 for January 3, 2022. Please be aware that the cell must be of the "Text" type.
+
