@@ -4,5 +4,6 @@ title: "Use cases"
 
 Description of relevant use cases.
 ## Accession numbers
+In a public or institutional repository, an accession number is a distinct, reliable identifier linked to a genetic resource, biological specimen, or data entry. Plant varieties, seed samples, and genetic materials are frequently cataloged in gene banks and databases using accession numbers in agricultural research. Even though other metadata (like name or classification) may change over time, they guarantee that every item can be consistently tracked, referenced, and retrieved. Accession numbers are essential for connecting environmental, genotypic, and phenotypic data in the COUSIN project. This allows for long-term reproducibility, consistency, and interoperability of data across datasets.
 
 ## WU

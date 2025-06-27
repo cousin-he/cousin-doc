@@ -12,8 +12,7 @@ website:
         menu:
         - href: smart-cousin.qmd
           text: Architecture
-        - text: Tools
-          menu:
+        - text: Tools 
               - text: Germinate
                 href: https://germinateplatform.github.io/get-germinate/
               - text: Gatekeeper
