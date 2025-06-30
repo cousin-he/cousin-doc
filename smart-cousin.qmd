@@ -1,8 +1,8 @@
 ---
 title: "Smart COUSIN"
+format: html
 ---
 
-## Introduction
-
-
-## Overall architecture
+<div style="text-align: center;">
+  <img src="_Diagrama de  la plataforma SMART-COUSIN.svg" alt="Smart COUSIN Architecture Diagram" style="max-width: 100%; height: auto;" />
+</div>
