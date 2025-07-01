@@ -1,21 +1,122 @@
 ---
 title: "Tools"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    code-fold: true
+    code-summary: "Afficher/Masquer le code"
+    number-sections: true
 ---
+# Introduction to Germinate
+
+**Germinate** is an open-source, web-based data management platform developed to address the challenges of handling large, complex biological datasets. Traditional tools like spreadsheets fall short in managing modern volumes of genetic, phenotypic, and environmental data. Germinate bridges this gap by offering a standardized, FAIR-compliant (Findable, Accessible, Interoperable, Reusable) framework for curating, exploring, and sharing multidisciplinary research data. It serves as a centralized hub for genetic resources, enabling reproducible analysis and collaborative science across global research communities.
+
+# Complete Definition of Germinate
+
+**Germinate** is a **digital curation platform** designed to manage, visualize, and disseminate large-scale biological data. Its core functionalities include:
+
+## 1. Purpose & Scope
+
+- **Problem Solved**: Overcomes limitations of spreadsheets in handling complex, high-volume datasets (e.g., millions of genetic markers or phenotypic data points).
+
+- **Mission**: To standardize and democratize access to genetic resource data while ensuring FAIR compliance.
+
+## 2. Data Types Supported
+
+Germinate stores and integrates:
+
+| **Data Category**        | **Examples**                                        |
+|--------------------------|----------------------------------------------------|
+| Passport Data            | Germplasm identifiers, origins, collection details |
+| Phenotypic Data          | Trait measurements, growth characteristics         |
+| Genetic Data             | SNP markers, haplotypes, genotypic profiles        |
+| Field Trial & Pedigree   | Breeding history, lineage relationships            |
+| Climatic & Geographic    | Environmental variables, GPS coordinates           |
+| Multimedia & Annotations | User-submitted images, notes, metadata             |
+
+
+*Note: Continuously expanded (e.g., UAV/drone phenotyping in development).*
+
+## 3. Technical Framework
+
+- **Development**: Created and maintained by the **James Hutton Institute** (Scotland) since 2005.
+
+- **Standards Compliance**:
+
+- FAO Multi-Crop Passport Descriptors (MCPD).
+
+- Dublin Core metadata.
+
+- MIAPPE (in development).
+
+- FAIR data principles.
+
+- **Export Flexibility**:
+
+- Formats: Plain text, Flapjack (genotyping), Helium (pedigree), HapMap.
+
+- Philosophy: *"Any data entered can be extracted efficiently."*
+
+## 4. Accessibility & Security
+
+- **Deployment**:
+
+- Free installation via [GitHub](https://github.com) or Docker (supports Raspberry Pi).
+
+- Public demo databases for testing.
+
+- **User Management**:
+
+- Role-based access (public vs. password-protected databases).
+
+- GDPR-compliant privacy (emails used only for password recovery).
+
+- Secure password encryption (no plaintext storage).
+
+## 5. Scientific Impact
+
+- **Scalability**: Manages databases with *"hundreds of thousands of plant lines and millions of data points."*
+
+- **Global Reach**: Originally focused on barley/potato; now supports **25+ crops** worldwide.
+
+- **Collaboration**: Enables data sharing across institutions while maintaining reproducibility.
+
+## Key Workflow Integration
+
+```{mermaid}
+
+graph LR
+
+A[Data Entry] --> B[FAIR Storage in Germinate]
+
+B --> C[Web-Based Exploration]
+
+C --> D[Export for Analysis]
+
+D --> E[Reproducible Research]
+
+```
+## GateKeeper
+Gatekeeper is Germinate’s user management tool. It handles user registration, authentication and management and sits alongside multiple instances of Germinate.
+
+
+
+# Configurations
 
 ## Germinate
-# Configuration
 You can run Germinate in a variety of ways.
 
-The Germinate Docker container is most likely the greatest choice if you are knowledgeable about Docker and containerisation. Assuming you already have a functional Docker environment, it requires the least amount of configuration. A manual build of Germinate will probably be your best bet if Docker is a foreign concept to you.
+The Germinate Docker container is most likely the greatest choice if you are knowledgeable about Docker and containerisation. Assuming you already have a functional Docker environment, it requires the least amount of configuration. **A manual build** of Germinate will probably be your best bet if Docker is a foreign concept to you.
 
 
-The next part will walk you through both situations and outline every step you need to take to get Germinate operational.
+The next section will walk you through both situations and outline every step you need to take to get Germinate operational.
 
 
-## Docker
+## Docker Setup
 Let's begin with Docker, which is a simpler case. You can just pull and run our functional Docker image of Germinate on your computer or server by using DockerHub.
 
-You will also require a MySQL database. This could be an existing database server or another Docker container. A Docker MySQL container is used in the examples that follow. Simply extract the pertinent sections from the docker file or docker commands if you want to use your own database.
+You will also require a **MySQL database**. This could be an existing database server or another Docker container. A Docker MySQL container is used in the examples that follow. Simply extract the pertinent sections from the docker file or docker commands if you want to use your own database.
 
 It is as easy as defining this docker-compose.yml file if you have docker-compose installed. Modify only the sections with comments above them.
 ```yaml
@@ -183,20 +284,18 @@ It is as easy as defining this docker-compose.yml file if you have docker-compos
 ```
 Verify that the location at /path/to/your/germinate/config contains at least one config.properties file.
 
-Note: The database.server property in the config.properties file should be set to mysql when using the above setup since this is the address of the database within the Docker network. Kindly use the new name if you decide to rename the MySQL service.
+**Note**: The database.server property in the config.properties file should be set to mysql when using the above setup since this is the address of the database within the Docker network. Kindly use the new name if you decide to rename the MySQL service.
 
-## Possible setup
+## Possible Setup Diagram
 <p align="center">
-  <img src="Possible setup.png" width="400"/>
+  <img src="Possible setup.png" width="500"/>
 </p>
 The figure above shows Germinate (and Gatekeeper) using an externally provided MySQL server while they run as two Docker images in a Docker compose
 
 This Docker compose setup dictates some of the properties in the config.properties files of Germinate and Gatekeeper respectively.
 
 For Germinate it’ll look like this:
-
-```properties
-
+```yaml
 # This is the Germinate MySQL Docker container name
 database.server=germinate_mysql
 database.name=germinate
@@ -273,12 +372,12 @@ hidden.columns.publications =
 
 
 ```
-
+## Gatekeeper
 This part describes the content of Gatekeeper’s configuration folder. This folder does not exist and has to be created somewhere on the system where Gatekeeper can access it. The folder only has to contain a single file: config.properties
 
 The content of this file is explained below. This includes properties like the database details and user credentials as well as various customization options. The configuration should look ike this:
 
-```properties
+```yaml
 
 # This is the Gatekeeper MySQL Docker container name
 database.server=gatekeeper_mysql
@@ -301,106 +400,87 @@ web.base=http://localhost:9081/
 ```
 
 
-Default Admin account
+### Default Admin account
 When you run Gatekeeper for the first time, a default admin account is created. The default password for this account is simply “password”. Please change this immediately by logging in using the username “admin” and the aforementioned password.
 
 
 Once running, you will need to create a new user in Gatekeeper that Germinate can use to authenticate itself. To this end, create a new user with Administrator permissions for the default Gatekeeper (not Germinate) database. You can then use the username and password of this new account in the Germinate configuration by providing: gatekeeper.username and gatekeeper.password.
 
-# Introduction to Germinate
 
-**Germinate** is an open-source, web-based data management platform developed to address the challenges of handling large, complex biological datasets. Traditional tools like spreadsheets fall short in managing modern volumes of genetic, phenotypic, and environmental data. Germinate bridges this gap by offering a standardized, FAIR-compliant (Findable, Accessible, Interoperable, Reusable) framework for curating, exploring, and sharing multidisciplinary research data. It serves as a centralized hub for genetic resources, enabling reproducible analysis and collaborative science across global research communities.
 
-# Complete Definition of Germinate
+### Gatekeeper: Adding Users
 
-**Germinate** is a **digital curation platform** designed to manage, visualize, and disseminate large-scale biological data. Its core functionalities include:
+In the context of **Gatekeeper**, users fall into two categories:
 
-## 1. Purpose & Scope
+1. **Type 1 – Individual Users**  
+   A genuine person who wants to access Germinate data.  
+   These users log into Germinate with their email and password. Germinate then communicates with Gatekeeper to verify their access rights.
 
-- **Problem Solved**: Overcomes limitations of spreadsheets in handling complex, high-volume datasets (e.g., millions of genetic markers or phenotypic data points).
+2. **Type 2 – System Users**  
+   A specific instance of Germinate trying to access the Gatekeeper database.  
+   There should be **one such user per Germinate instance**. This user is configured using the `gatekeeper.username` and `gatekeeper.password` properties in the `config.properties` file of Germinate. This setup is typically done once during system deployment.
 
-- **Mission**: To standardize and democratize access to genetic resource data while ensuring FAIR compliance.
 
-## 2. Data Types Supported
 
-Germinate stores and integrates:
+### Managing Type 1 Users (Individuals)
 
-| **Data Category**       | **Examples**                                      |
+To add or manage individual users:
 
-|--------------------------|--------------------------------------------------|
+- Log in as an **administrator** in Gatekeeper.
+- From the side menu, select **"Active users"**.
+- A table appears showing all users currently registered in Gatekeeper.
+- Use the search bar to filter and locate specific users.
 
-| Passport Data            | Germplasm identifiers, origins, collection details |
+To **add a new user**:
 
-| Phenotypic Data          | Trait measurements, growth characteristics        |
+1. Click the **"Add user"** button below the table. 
 
-| Genetic Data             | SNP markers, haplotypes, genotypic profiles       |
+<div style="text-align: center;">
+  ![](gate1.png){width=70% alt="Add new user in Gatekeeper"}
+</div>
 
-| Field Trial & Pedigree   | Breeding history, lineage relationships           |
+2. A new window opens asking for:
+   - Full Name
+   - Institution (use the "+" button to add a new one if needed)
+   - Email Address
+   - Password (and confirmation)
 
-| Climatic & Geographic    | Environmental variables, GPS coordinates          |
+<div style="text-align: center;">
+  ![](gate2.png){width=70% alt="Add new user in Gatekeeper"}
+</div>
 
-| Multimedia & Annotations | User-submitted images, notes, metadata            |
+Once added, the user will appear at the bottom of the table.
 
-*Note: Continuously expanded (e.g., UAV/drone phenotyping in development).*
 
-## 3. Technical Framework
 
-- **Development**: Created and maintained by the **James Hutton Institute** (Scotland) since 2005.
+### Managing User Details and Permissions
 
-- **Standards Compliance**:
+When you select a user from the table, additional information appears below:
 
-- FAO Multi-Crop Passport Descriptors (MCPD).
+1. **User Information**  
+   - Full name  
+   - Email address  
+   - Institution  
 
-- Dublin Core metadata.
+2. **Account Settings**  
+   - Option to allow password reset via Gatekeeper login  
+   - Option to delete the user  
 
-- MIAPPE (in development).
+3. **System Permissions**  
+   - Displays access rights per system (e.g., Germinate instance)  
+   - Use the dropdown to change access level or delete permission  
 
-- FAIR data principles.
+4. **Add New Permissions**  
+   - Choose a system (Germinate or Gatekeeper)  
+   - Select permission level  
+   - Click **"Add"** to assign permissions  
 
-- **Export Flexibility**:
+<div style="text-align: center;">
+  ![](gate3.png){width=70% alt="Edit user permissions in Gatekeeper"}
+</div>
 
-- Formats: Plain text, Flapjack (genotyping), Helium (pedigree), HapMap.
+---
 
-- Philosophy: *"Any data entered can be extracted efficiently."*
+> ✅ Gatekeeper ensures secure, role-based access control across Germinate instances. Managing users properly guarantees both data security and user autonomy.
 
-## 4. Accessibility & Security
 
-- **Deployment**:
-
-- Free installation via [GitHub](https://github.com) or Docker (supports Raspberry Pi).
-
-- Public demo databases for testing.
-
-- **User Management**:
-
-- Role-based access (public vs. password-protected databases).
-
-- GDPR-compliant privacy (emails used only for password recovery).
-
-- Secure password encryption (no plaintext storage).
-
-## 5. Scientific Impact
-
-- **Scalability**: Manages databases with *"hundreds of thousands of plant lines and millions of data points."*
-
-- **Global Reach**: Originally focused on barley/potato; now supports **25+ crops** worldwide.
-
-- **Collaboration**: Enables data sharing across institutions while maintaining reproducibility.
-
-## Key Workflow Integration
-
-```{mermaid}
-
-graph LR
-
-A[Data Entry] --> B[FAIR Storage in Germinate]
-
-B --> C[Web-Based Exploration]
-
-C --> D[Export for Analysis]
-
-D --> E[Reproducible Research]
-
-```
-## GateKeeper
-Gatekeeper is Germinate’s user management tool. It handles user registration, authentication and management and sits alongside multiple instances of Germinate.

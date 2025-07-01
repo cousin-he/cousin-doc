@@ -11,6 +11,7 @@ website:
           - text: "Architecture"
             href: smart-cousin.qmd
           - text: "Tools"
+            href: tools.qmd
           - text: "Germinate"
             href: https://germinateplatform.github.io/get-germinate/
           - text: "Gatekeeper"
