@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "cousin-doc"
@@ -25,7 +26,7 @@ website:
       - text: "Use cases"
         href: use-cases.qmd
       - text: "Best practices"
-        href: best-practices.qmd
+        href: best-pracs.qmd
       - href: news.qmd
 
 page-footer:
