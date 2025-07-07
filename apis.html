@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,10 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9bbce3e5759e5a68a8adb783c752487f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -106,15 +106,27 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Tools</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./apis.html">
- <span class="dropdown-text">APIs</span></a>
+    <a class="dropdown-item" href="https://germinateplatform.github.io/get-germinate/">
+ <span class="dropdown-text">Germinate</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://www.gatekeeperhq.com/">
+ <span class="dropdown-text">Gatekeeper</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Standards.html">
+ <span class="dropdown-text">Standards</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Templates.html">
+ <span class="dropdown-text">Templates</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./data-curation.html">
+ <span class="dropdown-text">Data Curation</span></a>
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./docs.html"> 
-<span class="menu-text">Docs</span></a>
-  </li>  
   <li class="nav-item">
     <a class="nav-link" href="./use-cases.html"> 
 <span class="menu-text">Use cases</span></a>
@@ -144,8 +156,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#eurisco" id="toc-eurisco" class="nav-link active" data-scroll-target="#eurisco">EURISCO</a></li>
-  <li><a href="#miapee" id="toc-miapee" class="nav-link" data-scroll-target="#miapee">MIAPEE</a></li>
-  <li><a href="#miapee-1" id="toc-miapee-1" class="nav-link" data-scroll-target="#miapee-1">MIAPEE</a></li>
+  <li><a href="#miappe-api" id="toc-miappe-api" class="nav-link" data-scroll-target="#miappe-api">MIAPPE API</a></li>
   </ul>
 </nav>
     </div>
@@ -173,12 +184,13 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="eurisco" class="level2">
 <h2 class="anchored" data-anchor-id="eurisco">EURISCO</h2>
+<p>EURISCO provides access to an extensive database of plant genetic resources through its API. This service enables users to manage, search, and retrieve detailed information about plant accessions held in European genebanks.</p>
+<p>To support research and conservation, the EURISCO API allows queries based on various parameters such as species, accession numbers, and traits, facilitating efficient and precise data access.</p>
 </section>
-<section id="miapee" class="level2">
-<h2 class="anchored" data-anchor-id="miapee">MIAPEE</h2>
-</section>
-<section id="miapee-1" class="level2">
-<h2 class="anchored" data-anchor-id="miapee-1">MIAPEE</h2>
+<section id="miappe-api" class="level2">
+<h2 class="anchored" data-anchor-id="miappe-api">MIAPPE API</h2>
+<p>The <strong>MIAPPE (Minimum Information About a Plant Phenotyping Experiment)</strong> API standardizes access to plant phenotyping experiment metadata, ensuring consistency and interoperability in data exchange.</p>
+<p>By adhering to MIAPPE guidelines, this API enables researchers to submit, retrieve, and analyze data related to environmental and experimental conditions as well as detailed phenotypic information, thus supporting robust and reproducible plant phenotyping research.</p>
 
 
 </section>
@@ -266,8 +278,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -378,7 +388,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

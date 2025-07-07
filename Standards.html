@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Best practices – cousin-doc</title>
+<title>Standards – cousin-doc</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -132,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Use cases</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./best-pracs.html" aria-current="page"> 
+    <a class="nav-link" href="./best-pracs.html"> 
 <span class="menu-text">Best practices</span></a>
   </li>  
   <li class="nav-item">
@@ -150,15 +150,24 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#mcpd" id="toc-mcpd" class="nav-link active" data-scroll-target="#mcpd">MCPD</a></li>
+  <li><a href="#isa" id="toc-isa" class="nav-link" data-scroll-target="#isa">ISA</a></li>
+  <li><a href="#brapi" id="toc-brapi" class="nav-link" data-scroll-target="#brapi">BrAPI</a></li>
+  <li><a href="#miappe" id="toc-miappe" class="nav-link" data-scroll-target="#miappe">MIAPPE</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Best practices</h1>
+<h1 class="title">Standards</h1>
 </div>
 
 
@@ -175,9 +184,32 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Documents and guides summarising technical best practices.</p>
+<section id="mcpd" class="level2">
+<h2 class="anchored" data-anchor-id="mcpd">MCPD</h2>
+<p>The Food and Agriculture Organisation of the United Nations (FAO) and Bioversity International (formerly IPGRI) collaborated to create the <strong>Multi-Crop Passport Descriptors (MCPD)</strong>, an internationally accepted data standard designed to facilitate consistent documentation and sharing of passport information for plant genetic resources (PGR) across various crops and collections.</p>
+<p>MCPD specifies a core set of descriptors—including accession identifier, taxon, geographical origin, holding institute, and biological status—to standardize the description and international exchange of germplasm data. By providing precise definitions, coding schemes, and recommended field names, MCPD enables data integration and interoperability with other systems and standards, such as crop-specific descriptor lists and the FAO World Information and Early Warning System (WIEWS).</p>
+<p>Thanks to its adaptable structure, user networks can extend the descriptor list to meet specific needs while maintaining compatibility with the MCPD format. Widespread adoption by genebanks and research organizations worldwide makes MCPD a fundamental standard for exchanging, discovering, and managing plant genetic resource data.</p>
+</section>
+<section id="isa" class="level2">
+<h2 class="anchored" data-anchor-id="isa">ISA</h2>
+<p>In life sciences, environmental, and biomedical research, the open-source, community-driven <strong>ISA (Investigation/Study/Assay)</strong> metadata tracking framework was developed to simplify the collection, curation, management, publication, and reuse of experimental data in a standards-compliant manner.</p>
+<p>The ISA model is structured around three primary components: - <strong>Investigation</strong>: the overall project context, - <strong>Study</strong>: the unit of research, - <strong>Assay</strong>: analytical measurements conducted.</p>
+<p>This hierarchy ensures transparency, reproducibility, and interoperability by allowing detailed descriptions of experimental metadata, including sample characteristics, technologies, measurement types, and sample-to-data relationships. The ISA software suite supports FAIR (Findable, Accessible, Interoperable, Reusable) data management through multiple serialization formats (ISA-Tab, ISA-JSON) and integration with numerous public repositories and analytical tools.</p>
+</section>
+<section id="brapi" class="level2">
+<h2 class="anchored" data-anchor-id="brapi">BrAPI</h2>
+<p>The open-source, standardized <strong>BrAPI (Breeding API)</strong> RESTful web service specification was designed to enable seamless integration and data exchange between tools, databases, and applications used in plant breeding.</p>
+<p>BrAPI supports interoperability throughout the breeding data lifecycle, covering project management, sample and germplasm tracking, and phenotypic and genotypic data collection and analysis. It establishes a common set of data models and API endpoints, ensuring adaptability and modularity.</p>
+<p>Compatibility with other data standards such as MIAPPE, MCPD, and ICASA makes BrAPI easy to implement across various programming languages. Maintained by a global community of software developers, data managers, and breeders, BrAPI is widely used in research and industry to enhance data sharing, collaboration, and innovation in plant breeding.</p>
+</section>
+<section id="miappe" class="level2">
+<h2 class="anchored" data-anchor-id="miappe">MIAPPE</h2>
+<p>The open, community-driven <strong>MIAPPE (Minimum Information About a Plant Phenotyping Experiment)</strong> data standard was developed to standardize and facilitate the sharing, publishing, and reuse of experimental and computed data in plant phenotyping research.</p>
+<p>MIAPPE provides a comprehensive checklist and data model for metadata to ensure consistent and clear documentation of all relevant details, such as biological material, experimental design, observed variables, and environmental conditions.</p>
+<p>The latest version (1.1) improves compatibility with frameworks like ISA-Tools and BrAPI, extends coverage to woody plants, and introduces a formal data model for better implementation and validation. By endorsing community vocabularies and adhering to FAIR data principles, MIAPPE enhances interoperability, automated validation, and data reusability across plant phenotyping experiments and platforms.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Best practices – cousin-doc</title>
+<title>Templates – cousin-doc</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -132,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Use cases</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./best-pracs.html" aria-current="page"> 
+    <a class="nav-link" href="./best-pracs.html"> 
 <span class="menu-text">Best practices</span></a>
   </li>  
   <li class="nav-item">
@@ -150,15 +150,41 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#environmental-data" id="toc-environmental-data" class="nav-link active" data-scroll-target="#environmental-data">Environmental Data</a>
+  <ul class="collapse">
+  <li><a href="#metadata" id="toc-metadata" class="nav-link" data-scroll-target="#metadata">Metadata</a></li>
+  <li><a href="#attributes" id="toc-attributes" class="nav-link" data-scroll-target="#attributes">Attributes</a></li>
+  <li><a href="#location" id="toc-location" class="nav-link" data-scroll-target="#location">Location</a></li>
+  <li><a href="#collaborators" id="toc-collaborators" class="nav-link" data-scroll-target="#collaborators">Collaborators</a></li>
+  <li><a href="#environment-variables" id="toc-environment-variables" class="nav-link" data-scroll-target="#environment-variables">Environment Variables</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  </ul></li>
+  <li><a href="#genotypic-data" id="toc-genotypic-data" class="nav-link" data-scroll-target="#genotypic-data">Genotypic Data</a>
+  <ul class="collapse">
+  <li><a href="#metadata-1" id="toc-metadata-1" class="nav-link" data-scroll-target="#metadata-1">Metadata</a></li>
+  <li><a href="#location-1" id="toc-location-1" class="nav-link" data-scroll-target="#location-1">Location</a></li>
+  <li><a href="#collaborators-1" id="toc-collaborators-1" class="nav-link" data-scroll-target="#collaborators-1">Collaborators</a></li>
+  <li><a href="#data-1" id="toc-data-1" class="nav-link" data-scroll-target="#data-1">Data</a>
+  <ul class="collapse">
+  <li><a href="#optional-map" id="toc-optional-map" class="nav-link" data-scroll-target="#optional-map">Optional Map</a></li>
+  <li><a href="#allele-calls" id="toc-allele-calls" class="nav-link" data-scroll-target="#allele-calls">Allele Calls</a></li>
+  </ul></li>
+  <li><a href="#plain-text-format" id="toc-plain-text-format" class="nav-link" data-scroll-target="#plain-text-format">Plain Text Format</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Best practices</h1>
+<h1 class="title">Templates</h1>
 </div>
 
 
@@ -175,9 +201,92 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Documents and guides summarising technical best practices.</p>
+<section id="environmental-data" class="level1">
+<h1>Environmental Data</h1>
+<section id="metadata" class="level2">
+<h2 class="anchored" data-anchor-id="metadata">Metadata</h2>
+<p>A selection of terms from the <strong>Dublin Core Metadata Initiative</strong> is included. While <code>VALUE</code> holds your data, <code>LABEL</code> and <code>DEFINITION</code> provide definitions.<br>
+<strong>Title</strong> and <strong>Description</strong> fields are mandatory and will be used in <strong>Germinate</strong> to describe the dataset.</p>
+<p>Additional <strong>MIAPPE</strong> fields include: - Investigation Title / Description - Unique ID - Associated data file link / description / version</p>
+</section>
+<section id="attributes" class="level2">
+<h2 class="anchored" data-anchor-id="attributes">Attributes</h2>
+<p>Use attributes to describe additional information (e.g., <strong>pesticides</strong>, <strong>irrigation</strong>, <strong>fertilizers</strong>).<br>
+Each row must contain a single attribute of type: <code>numeric</code>, <code>date</code>, <code>text</code>, or <code>categorical</code>.</p>
+</section>
+<section id="location" class="level2">
+<h2 class="anchored" data-anchor-id="location">Location</h2>
+<p>(Optional) Link geographical sites to your dataset. Use a separate template copy for each site.</p>
+</section>
+<section id="collaborators" class="level2">
+<h2 class="anchored" data-anchor-id="collaborators">Collaborators</h2>
+<p>Specify contributors to the dataset.<br>
+<strong>First Name</strong> and <strong>Last Name</strong> are required fields.</p>
+</section>
+<section id="environment-variables" class="level2">
+<h2 class="anchored" data-anchor-id="environment-variables">Environment Variables</h2>
+<p>Characteristics are described here. Only <strong>Name</strong> and <strong>Data Type</strong> are mandatory.<br>
+<code>Data Type</code> must be one of: <code>text</code>, <code>date</code>, <code>numeric</code>, or <code>categorical</code>.</p>
+<ul>
+<li><strong>Short name</strong> and <strong>unit abbreviation</strong> must be ≤ 10 characters.</li>
+</ul>
+</section>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p>Define your environmental data here:</p>
+<ul>
+<li><p>Rows from <code>A2</code> downward = germplasm entries</p></li>
+<li><p>Use the <code>ACCENUMB</code> field for identification</p></li>
+<li><p>Columns from <code>D2</code> onward = traits (refer to <code>Name</code> column in <em>Environment Variables</em>)</p></li>
+<li><p><strong>Date</strong> field is mandatory (format <code>YYYY-MM-DD</code>)</p></li>
+<li><p>Leave empty cells for missing data (<code>NA</code>, dashes, or other symbols are not allowed)</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="genotypic-data" class="level1">
+<h1>Genotypic Data</h1>
+<p>Two formats: - Excel template: recommended for <strong>small datasets</strong> - Plain text (tab-delimited): required for <strong>large datasets</strong></p>
+<section id="metadata-1" class="level2">
+<h2 class="anchored" data-anchor-id="metadata-1">Metadata</h2>
+<p>Same structure as above. Use <strong>Dublin Core</strong> and <strong>MIAPPE</strong> fields.</p>
+<p>Germinate-specific fields: - Map Name - Marker Technology - Genetic / Physical - Map Units</p>
+</section>
+<section id="location-1" class="level2">
+<h2 class="anchored" data-anchor-id="location-1">Location</h2>
+<p>(Optional) Geographic site linked to the dataset.</p>
+</section>
+<section id="collaborators-1" class="level2">
+<h2 class="anchored" data-anchor-id="collaborators-1">Collaborators</h2>
+<p>List contributors (First and Last names required).</p>
+</section>
+<section id="data-1" class="level2">
+<h2 class="anchored" data-anchor-id="data-1">Data</h2>
+<ul>
+<li>Rows from <code>A4</code> = germplasm (use <code>ACCENUMB</code>)</li>
+<li>Columns from <code>B3</code> = markers (identified by name)</li>
+</ul>
+<section id="optional-map" class="level3">
+<h3 class="anchored" data-anchor-id="optional-map">Optional Map</h3>
+<p>Use rows 1–2 for map info. Leave empty if unused, but <strong>do not remove row labels</strong> (<code>A1</code>, <code>A2</code>).</p>
+</section>
+<section id="allele-calls" class="level3">
+<h3 class="anchored" data-anchor-id="allele-calls">Allele Calls</h3>
+<ul>
+<li>Start at cell <code>B4</code></li>
+<li>Use formats like <code>A</code>, <code>T/A</code>, <code>G/C</code>, <code>A/B</code>, or <code>0/1</code></li>
+<li>One character = <strong>homozygous</strong>, two characters = <strong>heterozygous</strong></li>
+<li>Use empty cells for missing values</li>
+</ul>
+</section>
+</section>
+<section id="plain-text-format" class="level2">
+<h2 class="anchored" data-anchor-id="plain-text-format">Plain Text Format</h2>
+<p>Example header rows:</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
