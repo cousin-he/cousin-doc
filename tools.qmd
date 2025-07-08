@@ -16,13 +16,13 @@ format:
 
 **Germinate** is a **digital curation platform** designed to manage, visualize, and disseminate large-scale biological data. Its core functionalities include:
 
-## 1. Purpose & Scope
+## Purpose & Scope
 
 - **Problem Solved**: Overcomes limitations of spreadsheets in handling complex, high-volume datasets (e.g., millions of genetic markers or phenotypic data points).
 
 - **Mission**: To standardize and democratize access to genetic resource data while ensuring FAIR compliance.
 
-## 2. Data Types Supported
+## Data Types Supported
 
 Germinate stores and integrates:
 
@@ -38,11 +38,11 @@ Germinate stores and integrates:
 
 *Note: Continuously expanded (e.g., UAV/drone phenotyping in development).*
 
-## 3. Technical Framework
+## Technical Framework
 
 - **Development**: Created and maintained by the **James Hutton Institute** (Scotland) since 2005.
 
-- **Standards Compliance**:
+ **Standards Compliance**:
 
 - FAO Multi-Crop Passport Descriptors (MCPD).
 
@@ -52,21 +52,21 @@ Germinate stores and integrates:
 
 - FAIR data principles.
 
-- **Export Flexibility**:
+**Export Flexibility**:
 
 - Formats: Plain text, Flapjack (genotyping), Helium (pedigree), HapMap.
 
 - Philosophy: *"Any data entered can be extracted efficiently."*
 
-## 4. Accessibility & Security
+## Accessibility & Security
 
-- **Deployment**:
+ **Deployment**:
 
 - Free installation via [GitHub](https://github.com) or Docker (supports Raspberry Pi).
 
 - Public demo databases for testing.
 
-- **User Management**:
+ **User Management**:
 
 - Role-based access (public vs. password-protected databases).
 
@@ -74,7 +74,7 @@ Germinate stores and integrates:
 
 - Secure password encryption (no plaintext storage).
 
-## 5. Scientific Impact
+## Scientific Impact
 
 - **Scalability**: Manages databases with *"hundreds of thousands of plant lines and millions of data points."*
 
@@ -113,7 +113,7 @@ The Germinate Docker container is most likely the greatest choice if you are kno
 The next section will walk you through both situations and outline every step you need to take to get Germinate operational.
 
 
-## Docker Setup
+### Docker Setup
 Let's begin with Docker, which is a simpler case. You can just pull and run our functional Docker image of Germinate on your computer or server by using DockerHub.
 
 You will also require a **MySQL database**. This could be an existing database server or another Docker container. A Docker MySQL container is used in the examples that follow. Simply extract the pertinent sections from the docker file or docker commands if you want to use your own database.
@@ -286,7 +286,7 @@ Verify that the location at /path/to/your/germinate/config contains at least one
 
 **Note**: The database.server property in the config.properties file should be set to mysql when using the above setup since this is the address of the database within the Docker network. Kindly use the new name if you decide to rename the MySQL service.
 
-## Possible Setup Diagram
+### Possible Setup Diagram
 <p align="center">
   <img src="Possible setup.png" width="500"/>
 </p>
