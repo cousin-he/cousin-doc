@@ -1,10 +1,94 @@
 [
   {
+    "objectID": "use-cases.html",
+    "href": "use-cases.html",
+    "title": "Use cases",
+    "section": "",
+    "text": "In a public or institutional repository, an accession number is a distinct, reliable identifier linked to a genetic resource, biological specimen, or data entry.\nPlant varieties, seed samples, and genetic materials are frequently cataloged in gene banks and databases using accession numbers in agricultural research. Even though other metadata (like name or classification) may change over time, accession numbers guarantee consistent tracking, referencing, and retrieval.\nIn the COUSIN project, accession numbers are essential for connecting environmental, genotypic, and phenotypic data. This allows for:\n\nlong-term reproducibility\n\ndata consistency\n\nand interoperability across datasets."
+  },
+  {
+    "objectID": "use-cases.html#accession-numbers",
+    "href": "use-cases.html#accession-numbers",
+    "title": "Use cases",
+    "section": "",
+    "text": "In a public or institutional repository, an accession number is a distinct, reliable identifier linked to a genetic resource, biological specimen, or data entry.\nPlant varieties, seed samples, and genetic materials are frequently cataloged in gene banks and databases using accession numbers in agricultural research. Even though other metadata (like name or classification) may change over time, accession numbers guarantee consistent tracking, referencing, and retrieval.\nIn the COUSIN project, accession numbers are essential for connecting environmental, genotypic, and phenotypic data. This allows for:\n\nlong-term reproducibility\n\ndata consistency\n\nand interoperability across datasets."
+  },
+  {
+    "objectID": "use-cases.html#wu",
+    "href": "use-cases.html#wu",
+    "title": "Use cases",
+    "section": "WU",
+    "text": "WU"
+  },
+  {
+    "objectID": "Standards.html",
+    "href": "Standards.html",
+    "title": "Standards",
+    "section": "",
+    "text": "The Food and Agriculture Organisation of the United Nations (FAO) and Bioversity International (formerly IPGRI) collaborated to create the Multi-Crop Passport Descriptors (MCPD), an internationally accepted data standard designed to facilitate consistent documentation and sharing of passport information for plant genetic resources (PGR) across various crops and collections.\nMCPD specifies a core set of descriptors—including accession identifier, taxon, geographical origin, holding institute, and biological status—to standardize the description and international exchange of germplasm data. By providing precise definitions, coding schemes, and recommended field names, MCPD enables data integration and interoperability with other systems and standards, such as crop-specific descriptor lists and the FAO World Information and Early Warning System (WIEWS).\nThanks to its adaptable structure, user networks can extend the descriptor list to meet specific needs while maintaining compatibility with the MCPD format. Widespread adoption by genebanks and research organizations worldwide makes MCPD a fundamental standard for exchanging, discovering, and managing plant genetic resource data."
+  },
+  {
+    "objectID": "Standards.html#mcpd",
+    "href": "Standards.html#mcpd",
+    "title": "Standards",
+    "section": "",
+    "text": "The Food and Agriculture Organisation of the United Nations (FAO) and Bioversity International (formerly IPGRI) collaborated to create the Multi-Crop Passport Descriptors (MCPD), an internationally accepted data standard designed to facilitate consistent documentation and sharing of passport information for plant genetic resources (PGR) across various crops and collections.\nMCPD specifies a core set of descriptors—including accession identifier, taxon, geographical origin, holding institute, and biological status—to standardize the description and international exchange of germplasm data. By providing precise definitions, coding schemes, and recommended field names, MCPD enables data integration and interoperability with other systems and standards, such as crop-specific descriptor lists and the FAO World Information and Early Warning System (WIEWS).\nThanks to its adaptable structure, user networks can extend the descriptor list to meet specific needs while maintaining compatibility with the MCPD format. Widespread adoption by genebanks and research organizations worldwide makes MCPD a fundamental standard for exchanging, discovering, and managing plant genetic resource data."
+  },
+  {
+    "objectID": "Standards.html#isa",
+    "href": "Standards.html#isa",
+    "title": "Standards",
+    "section": "ISA",
+    "text": "ISA\nIn life sciences, environmental, and biomedical research, the open-source, community-driven ISA (Investigation/Study/Assay) metadata tracking framework was developed to simplify the collection, curation, management, publication, and reuse of experimental data in a standards-compliant manner.\nThe ISA model is structured around three primary components: - Investigation: the overall project context, - Study: the unit of research, - Assay: analytical measurements conducted.\nThis hierarchy ensures transparency, reproducibility, and interoperability by allowing detailed descriptions of experimental metadata, including sample characteristics, technologies, measurement types, and sample-to-data relationships. The ISA software suite supports FAIR (Findable, Accessible, Interoperable, Reusable) data management through multiple serialization formats (ISA-Tab, ISA-JSON) and integration with numerous public repositories and analytical tools."
+  },
+  {
+    "objectID": "Standards.html#brapi",
+    "href": "Standards.html#brapi",
+    "title": "Standards",
+    "section": "BrAPI",
+    "text": "BrAPI\nThe open-source, standardized BrAPI (Breeding API) RESTful web service specification was designed to enable seamless integration and data exchange between tools, databases, and applications used in plant breeding.\nBrAPI supports interoperability throughout the breeding data lifecycle, covering project management, sample and germplasm tracking, and phenotypic and genotypic data collection and analysis. It establishes a common set of data models and API endpoints, ensuring adaptability and modularity.\nCompatibility with other data standards such as MIAPPE, MCPD, and ICASA makes BrAPI easy to implement across various programming languages. Maintained by a global community of software developers, data managers, and breeders, BrAPI is widely used in research and industry to enhance data sharing, collaboration, and innovation in plant breeding."
+  },
+  {
+    "objectID": "Standards.html#miappe",
+    "href": "Standards.html#miappe",
+    "title": "Standards",
+    "section": "MIAPPE",
+    "text": "MIAPPE\nThe open, community-driven MIAPPE (Minimum Information About a Plant Phenotyping Experiment) data standard was developed to standardize and facilitate the sharing, publishing, and reuse of experimental and computed data in plant phenotyping research.\nMIAPPE provides a comprehensive checklist and data model for metadata to ensure consistent and clear documentation of all relevant details, such as biological material, experimental design, observed variables, and environmental conditions.\nThe latest version (1.1) improves compatibility with frameworks like ISA-Tools and BrAPI, extends coverage to woody plants, and introduces a formal data model for better implementation and validation. By endorsing community vocabularies and adhering to FAIR data principles, MIAPPE enhances interoperability, automated validation, and data reusability across plant phenotyping experiments and platforms."
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "Blog entries describing major events and updates."
+  },
+  {
+    "objectID": "docs.html",
+    "href": "docs.html",
+    "title": "Documentation",
+    "section": "",
+    "text": "Links to relevant technical documentation."
+  },
+  {
     "objectID": "best-pracs.html",
     "href": "best-pracs.html",
     "title": "Best practices",
     "section": "",
     "text": "Documents and guides summarising technical best practices."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This site has been generated with Quarto, a software tool for scientific technical documentation suitable for different programming languages. To learn more about Quarto websites visit https://quarto.org/docs/websites.\nCOUSIN has also created a practical Quarto workshop, introducing its applications for scientific documentation and publishing."
+  },
+  {
+    "objectID": "about.html#creating-this-website",
+    "href": "about.html#creating-this-website",
+    "title": "About",
+    "section": "",
+    "text": "This site has been generated with Quarto, a software tool for scientific technical documentation suitable for different programming languages. To learn more about Quarto websites visit https://quarto.org/docs/websites.\nCOUSIN has also created a practical Quarto workshop, introducing its applications for scientific documentation and publishing."
   },
   {
     "objectID": "apis.html",
@@ -28,90 +112,6 @@
     "text": "MIAPPE API\nThe MIAPPE (Minimum Information About a Plant Phenotyping Experiment) API standardizes access to plant phenotyping experiment metadata, ensuring consistency and interoperability in data exchange.\nBy adhering to MIAPPE guidelines, this API enables researchers to submit, retrieve, and analyze data related to environmental and experimental conditions as well as detailed phenotypic information, thus supporting robust and reproducible plant phenotyping research."
   },
   {
-    "objectID": "tools.html",
-    "href": "tools.html",
-    "title": "Tools",
-    "section": "",
-    "text": "Germinate is an open-source, web-based data management platform developed to address the challenges of handling large, complex biological datasets. Traditional tools like spreadsheets fall short in managing modern volumes of genetic, phenotypic, and environmental data. Germinate bridges this gap by offering a standardized, FAIR-compliant (Findable, Accessible, Interoperable, Reusable) framework for curating, exploring, and sharing multidisciplinary research data. It serves as a centralized hub for genetic resources, enabling reproducible analysis and collaborative science across global research communities."
-  },
-  {
-    "objectID": "tools.html#purpose-scope",
-    "href": "tools.html#purpose-scope",
-    "title": "Tools",
-    "section": "2.1 1. Purpose & Scope",
-    "text": "2.1 1. Purpose & Scope\n\nProblem Solved: Overcomes limitations of spreadsheets in handling complex, high-volume datasets (e.g., millions of genetic markers or phenotypic data points).\nMission: To standardize and democratize access to genetic resource data while ensuring FAIR compliance."
-  },
-  {
-    "objectID": "tools.html#data-types-supported",
-    "href": "tools.html#data-types-supported",
-    "title": "Tools",
-    "section": "2.2 2. Data Types Supported",
-    "text": "2.2 2. Data Types Supported\nGerminate stores and integrates:\n\n\n\n\n\n\n\nData Category\nExamples\n\n\n\n\nPassport Data\nGermplasm identifiers, origins, collection details\n\n\nPhenotypic Data\nTrait measurements, growth characteristics\n\n\nGenetic Data\nSNP markers, haplotypes, genotypic profiles\n\n\nField Trial & Pedigree\nBreeding history, lineage relationships\n\n\nClimatic & Geographic\nEnvironmental variables, GPS coordinates\n\n\nMultimedia & Annotations\nUser-submitted images, notes, metadata\n\n\n\nNote: Continuously expanded (e.g., UAV/drone phenotyping in development)."
-  },
-  {
-    "objectID": "tools.html#technical-framework",
-    "href": "tools.html#technical-framework",
-    "title": "Tools",
-    "section": "2.3 3. Technical Framework",
-    "text": "2.3 3. Technical Framework\n\nDevelopment: Created and maintained by the James Hutton Institute (Scotland) since 2005.\nStandards Compliance:\nFAO Multi-Crop Passport Descriptors (MCPD).\nDublin Core metadata.\nMIAPPE (in development).\nFAIR data principles.\nExport Flexibility:\nFormats: Plain text, Flapjack (genotyping), Helium (pedigree), HapMap.\nPhilosophy: “Any data entered can be extracted efficiently.”"
-  },
-  {
-    "objectID": "tools.html#accessibility-security",
-    "href": "tools.html#accessibility-security",
-    "title": "Tools",
-    "section": "2.4 4. Accessibility & Security",
-    "text": "2.4 4. Accessibility & Security\n\nDeployment:\nFree installation via GitHub or Docker (supports Raspberry Pi).\nPublic demo databases for testing.\nUser Management:\nRole-based access (public vs. password-protected databases).\nGDPR-compliant privacy (emails used only for password recovery).\nSecure password encryption (no plaintext storage)."
-  },
-  {
-    "objectID": "tools.html#scientific-impact",
-    "href": "tools.html#scientific-impact",
-    "title": "Tools",
-    "section": "2.5 5. Scientific Impact",
-    "text": "2.5 5. Scientific Impact\n\nScalability: Manages databases with “hundreds of thousands of plant lines and millions of data points.”\nGlobal Reach: Originally focused on barley/potato; now supports 25+ crops worldwide.\nCollaboration: Enables data sharing across institutions while maintaining reproducibility."
-  },
-  {
-    "objectID": "tools.html#key-workflow-integration",
-    "href": "tools.html#key-workflow-integration",
-    "title": "Tools",
-    "section": "2.6 Key Workflow Integration",
-    "text": "2.6 Key Workflow Integration\n\n\n\n\n\ngraph LR\n\nA[Data Entry] --&gt; B[FAIR Storage in Germinate]\n\nB --&gt; C[Web-Based Exploration]\n\nC --&gt; D[Export for Analysis]\n\nD --&gt; E[Reproducible Research]"
-  },
-  {
-    "objectID": "tools.html#gatekeeper",
-    "href": "tools.html#gatekeeper",
-    "title": "Tools",
-    "section": "2.7 GateKeeper",
-    "text": "2.7 GateKeeper\nGatekeeper is Germinate’s user management tool. It handles user registration, authentication and management and sits alongside multiple instances of Germinate."
-  },
-  {
-    "objectID": "tools.html#germinate",
-    "href": "tools.html#germinate",
-    "title": "Tools",
-    "section": "3.1 Germinate",
-    "text": "3.1 Germinate\nYou can run Germinate in a variety of ways.\nThe Germinate Docker container is most likely the greatest choice if you are knowledgeable about Docker and containerisation. Assuming you already have a functional Docker environment, it requires the least amount of configuration. A manual build of Germinate will probably be your best bet if Docker is a foreign concept to you.\nThe next section will walk you through both situations and outline every step you need to take to get Germinate operational."
-  },
-  {
-    "objectID": "tools.html#docker-setup",
-    "href": "tools.html#docker-setup",
-    "title": "Tools",
-    "section": "3.2 Docker Setup",
-    "text": "3.2 Docker Setup\nLet’s begin with Docker, which is a simpler case. You can just pull and run our functional Docker image of Germinate on your computer or server by using DockerHub.\nYou will also require a MySQL database. This could be an existing database server or another Docker container. A Docker MySQL container is used in the examples that follow. Simply extract the pertinent sections from the docker file or docker commands if you want to use your own database.\nIt is as easy as defining this docker-compose.yml file if you have docker-compose installed. Modify only the sections with comments above them.\n \n services:\n\n  mail:\n      image: bytemark/smtp\n      restart: always\n      container_name: mail\n      \n  mysql:\n    image: mysql:${MYSQL_VERSION:-8.4.5}\n    ports:\n      - 9306:3306\n    volumes:\n      - mysql:/var/lib/mysql\n      - ./init.sql:/docker-entrypoint-initdb.d/init.sql\n    environment:\n      # The root password. This is not used by Germinate, but can be used to access the database externally\n      MYSQL_ROOT_PASSWORD: PASSWORD_HERE\n       # The name of the Germinate database, e.g. \"germinate\"\n      MYSQL_DATABASE: GERMINATE_DATABASE_NAME\n      # The username Germinate will use to connect to this database\n      MYSQL_USER: DATABASE_USER\n      # The password Germinate will use to connect to this database\n      MYSQL_PASSWORD: DATABASE_PASSWORD\n    restart: always\n    container_name: mysql\n \n  gatekeeper:\n      image: ${GATEKEEPER_IMAGE:-cropgeeks/gatekeeper}:${GATEKEEPER_VERSION:-release-4.8.6}\n      environment:\n        - JAVA_OPTS:-Xmx512m\n      volumes:\n        - type: bind\n          source: ./config/gatekeeper\n          target: /data/gatekeeper\n        - type: volume\n          source: gatekeeper\n          target: /usr/local/tomcat/temp\n      restart: always\n      container_name: gatekeeper\n      depends_on:\n        - mysql\n        - mail\n\n  germinate:\n      image: ${GERMINATE_IMAGE:-cropgeeks/germinate}:${GERMINATE_VERSION:-release-&lt;version&gt;}\n      environment:\n        - JAVA_OPTS:-Xmx512m\n      # old java -Xmx4g\n      volumes:\n        - type: bind\n          # This points to where your Germinate configuration folder is outside the container\n          source: ./config/germinate\n          target: /data/germinate\n        - type: volume\n          source: germinate\n          target: /usr/local/tomcat/temp\n      restart: always\n      container_name: germinate\n      depends_on:\n        - mysql\n\n  plausible_db:\n    image: postgres:16-alpine\n    restart: always\n    volumes:\n      - db-data:/var/lib/postgresql/data\n    environment:\n      - POSTGRES_PASSWORD=postgres\n    healthcheck:\n      test: [\"CMD-SHELL\", \"pg_isready -U postgres\"]\n      start_period: 1m\n    container_name: postgres\n\n  plausible_events_db:\n    image: clickhouse/clickhouse-server:24.3.3.102-alpine\n    restart: always\n    volumes:\n      - event-data:/var/lib/clickhouse\n      - event-logs:/var/log/clickhouse-server\n      - ./clickhouse/logs.xml:/etc/clickhouse-server/config.d/logs.xml:ro\n      - ./clickhouse/ipv4-only.xml:/etc/clickhouse-server/config.d/ipv4-only.xml:ro\n      - ./clickhouse/low-resources.xml:/etc/clickhouse-server/config.d/low-resources.xml:ro\n    ulimits:\n      nofile:\n        soft: 262144\n        hard: 262144\n    healthcheck:\n      test: [\"CMD-SHELL\", \"wget --no-verbose --tries=1 -O - http://127.0.0.1:8123/ping || exit 1\"]\n      start_period: 1m\n    container_name: plausible_events\n\n  plausible:\n    image: ghcr.io/plausible/community-edition:v2.1.4\n    restart: always\n    ports:\n      - 127.0.0.1:8000:8000\n    command: sh -c \"/entrypoint.sh db createdb && /entrypoint.sh db migrate && /entrypoint.sh run\"\n    depends_on:\n      plausible_db:\n        condition: service_healthy\n      plausible_events_db:\n        condition: service_healthy\n      mail:\n        condition: service_started\n    volumes:\n      - plausible-data:/var/lib/plausible\n    ulimits:\n      nofile:\n        soft: 65535\n        hard: 65535\n    environment:\n      - TMPDIR=/var/lib/plausible/tmp\n      - BASE_URL=http://localhost:8000\n      - SECRET_KEY_BASE=ypUt8oZXf+ntrG0AXyZgDkfp2ekKDOmb9a5JNrmH9+6ccwMJkrBoknMbFVmLG28e0+Jga0aGK6v+RufDzFsKYA==\n      - SMTP_HOST_ADDR=mail\n      - SMTP_HOST_PORT=25\n    container_name: plausible\n\n  #phpmyadmin 80\n  phpmyadmin:\n    image: phpmyadmin:${PHPMYADMIN_VERSION:-&lt;version&gt;}\n    restart: always\n    ports:\n      - ${PHPMYADMIN_PORT:-9300}:80\n    container_name: phpmyadmin\n    environment:\n      PMA_HOST: mysql\n    depends_on:\n      - mysql\n \n  # reverse-proxy\n  nginx:\n    image: nginx:${NGINX_VERSION:-&lt;version&gt;}\n    restart: always\n    container_name: nginx-proxy\n    ports:\n      - ${NGINX_EXTERNAL_PORT:-9090}:${NGINX_LISTENING_PORT:-80}\n    volumes:\n      - ./reverse-proxy/nginx.conf:/etc/nginx/nginx.conf\n      - ./reverse-proxy/certs:/etc/nginx/certs\n    depends_on:\n      - germinate\n      - gatekeeper\n\n volumes:\n  mysql:\n  germinate:\n  gatekeeper:\n  mail:\n  db-data:\n  event-data:\n  event-logs: \n  plausible-data:\n  phpmyadmin:\n  nginx:\n\n networks:\n  default:\n    name: ${NETWORK:-cousin-net}\n  \nVerify that the location at /path/to/your/germinate/config contains at least one config.properties file.\nNote: The database.server property in the config.properties file should be set to mysql when using the above setup since this is the address of the database within the Docker network. Kindly use the new name if you decide to rename the MySQL service."
-  },
-  {
-    "objectID": "tools.html#possible-setup-diagram",
-    "href": "tools.html#possible-setup-diagram",
-    "title": "Tools",
-    "section": "3.3 Possible Setup Diagram",
-    "text": "3.3 Possible Setup Diagram\n\n\n\nThe figure above shows Germinate (and Gatekeeper) using an externally provided MySQL server while they run as two Docker images in a Docker compose\nThis Docker compose setup dictates some of the properties in the config.properties files of Germinate and Gatekeeper respectively.\nFor Germinate it’ll look like this:\n# This is the Germinate MySQL Docker container name\ndatabase.server=germinate_mysql\ndatabase.name=germinate\ndatabase.username=germinate-username\ndatabase.password=germinate-password\n# Note, we're not using the 9306 port here. That's only for remote access.\ndatabase.port=3306\n\n# We're using the Docker container name of Gatekeeper here.\ngatekeeper.url=http://gatekeeper:8080\ngatekeeper.username=gatekeeper-username@email.com\ngatekeeper.password=gatekeeper-password\n\n# This is only true if trying to access it from the machine running Docker.\n# If you want the setup to be available from the outside world, use whatever your Proxy setup is configured as.\ngerminate.client.url=http://localhost:9080\n\n# This just tells Germinate where to find this config file from inside the Docker container\ndata.directory.external=/data/germinate\n\nauthentication.mode=SELECTIVE\n# This is only true if trying to access it from the machine running Docker.\n# If you want the setup to be available from the outside world, use whatever your Proxy setup is configured as.\ngerminate.client.url=http://localhost:9090/\n\n# This just tells Germinate where to find this config file from inside the Docker container\ndata.directory.external=/data/germinate\n\nauthentication.mode=SELECTIVE\nbrapi.enabled = false\nfiles.delete.after.hours.async = 12\nfiles.delete.after.hours.temp = 12\ngatekeeper.registration.requires.approval = true\npdci.enabled = true\ncolors.charts = #00a0f1,#5ec418,#910080,#222183,#ff7c00,#c5e000,#c83831,#ff007a,#fff600\ncolors.template = #FF9E15,#799900,#00748C,#853175,#555559,#FFD100,#C2002F,#CF009E,#6AA2B8,#D6C200\ncolors.gradient = #440154,#48186a,#472d7b,#424086,#3b528b,#33638d,#2c728e,#26828e,#21918c,#1fa088,#28ae80,#3fbc73,#5ec962,#84d44b,#addc30,#d8e219,#fde725\ncolor.primary = #20a8d8\ndashboard.categories = germplasm,markers,traits,locations\ndashboard.sections = publications,news,projects,dataupdates,datastories\nhidden.pages = \nhidden.pages.autodiscover = false\ngatekeeper.registration.enabled = false\ngdpr.notification.enabled = false\nplausible.hash.mode = true\nplausible.api.host = https://plausible.io\ncomments.enabled = true\ndata.import.mode = IMPORT\ngridscore.url = https://gridscore.hutton.ac.uk\nhelium.url = https://helium.hutton.ac.uk/\nfieldhub.url = https://ics.hutton.ac.uk/fieldhub/\nhidden.columns.germplasm = entityParentName,entityParentGeneralIdentifier,institutionId,institutionName,latitude,longitude,collDate\nhidden.columns.germplasm.attributes = \nhidden.columns.images = \nhidden.columns.climates = \nhidden.columns.climate.data = climateId\nhidden.columns.comments = commentForeignId,commentTypeId\nhidden.columns.fileresources = fileresourcetypeId\nhidden.columns.maps = \nhidden.columns.markers = \nhidden.columns.map.definitions = \nhidden.columns.datasets = experimentId\nhidden.columns.dataset.attributes = \nhidden.columns.experiments = \nhidden.columns.entities = \nhidden.columns.groups = userId\nhidden.columns.institutions = \nhidden.columns.locations = \nhidden.columns.pedigrees = \nhidden.columns.traits = \nhidden.columns.trials.data = traitId\nhidden.columns.collaborators = \nhidden.columns.publications ="
-  },
-  {
-    "objectID": "tools.html#gatekeeper-1",
-    "href": "tools.html#gatekeeper-1",
-    "title": "Tools",
-    "section": "3.4 Gatekeeper",
-    "text": "3.4 Gatekeeper\nThis part describes the content of Gatekeeper’s configuration folder. This folder does not exist and has to be created somewhere on the system where Gatekeeper can access it. The folder only has to contain a single file: config.properties\nThe content of this file is explained below. This includes properties like the database details and user credentials as well as various customization options. The configuration should look ike this:\n\n# This is the Gatekeeper MySQL Docker container name\ndatabase.server=gatekeeper_mysql\ndatabase.name=gatekeeper\ndatabase.username=gatekeeper-username\ndatabase.password=gatekeeper-password\n# Note, we're not using the 9307 port here. That's only for remote access.\ndatabase.port=3306\n\n# Replace these with actual email properties\nemail.address=dummyemail@gmail.com\nemail.username=dummyemail@gmail.com\nemail.password=mysimplepassword\nemail.server=smtp.gmail.com\nemail.port=25\n\n# This is only true if trying to access it from the machine running Docker.\n# If you want the setup to be available from the outside world, use whatever your Proxy setup is configured as. \nweb.base=http://localhost:9081/\n\n3.4.1 Default Admin account\nWhen you run Gatekeeper for the first time, a default admin account is created. The default password for this account is simply “password”. Please change this immediately by logging in using the username “admin” and the aforementioned password.\nOnce running, you will need to create a new user in Gatekeeper that Germinate can use to authenticate itself. To this end, create a new user with Administrator permissions for the default Gatekeeper (not Germinate) database. You can then use the username and password of this new account in the Germinate configuration by providing: gatekeeper.username and gatekeeper.password.\n\n\n3.4.2 Gatekeeper: Adding Users\nIn the context of Gatekeeper, users fall into two categories:\n\nType 1 – Individual Users\nA genuine person who wants to access Germinate data.\nThese users log into Germinate with their email and password. Germinate then communicates with Gatekeeper to verify their access rights.\nType 2 – System Users\nA specific instance of Germinate trying to access the Gatekeeper database.\nThere should be one such user per Germinate instance. This user is configured using the gatekeeper.username and gatekeeper.password properties in the config.properties file of Germinate. This setup is typically done once during system deployment.\n\n\n\n3.4.3 Managing Type 1 Users (Individuals)\nTo add or manage individual users:\n\nLog in as an administrator in Gatekeeper.\nFrom the side menu, select “Active users”.\nA table appears showing all users currently registered in Gatekeeper.\nUse the search bar to filter and locate specific users.\n\nTo add a new user:\n\nClick the “Add user” button below the table.\n\n\n\n\n\nA new window opens asking for:\n\nFull Name\nInstitution (use the “+” button to add a new one if needed)\nEmail Address\nPassword (and confirmation)\n\n\n\n\n\nOnce added, the user will appear at the bottom of the table.\n\n\n3.4.4 Managing User Details and Permissions\nWhen you select a user from the table, additional information appears below:\n\nUser Information\n\nFull name\n\nEmail address\n\nInstitution\n\nAccount Settings\n\nOption to allow password reset via Gatekeeper login\n\nOption to delete the user\n\nSystem Permissions\n\nDisplays access rights per system (e.g., Germinate instance)\n\nUse the dropdown to change access level or delete permission\n\nAdd New Permissions\n\nChoose a system (Germinate or Gatekeeper)\n\nSelect permission level\n\nClick “Add” to assign permissions\n\n\n\n\n\n\n\n✅ Gatekeeper ensures secure, role-based access control across Germinate instances. Managing users properly guarantees both data security and user autonomy."
-  },
-  {
     "objectID": "data-curation.html",
     "href": "data-curation.html",
     "title": "Pipelines",
@@ -133,39 +133,95 @@
     "text": "Pipelines in Agronomy\nIn agronomy, data pipelines have become indispensable tools for managing and leveraging the vast amount of information generated by field experiments and agricultural operations. These pipelines aggregate data from heterogeneous sources—such as soil moisture sensors, meteorological stations, crop monitoring devices, and farm management systems—into cohesive datasets that support both short-term interventions and long-term strategies.\nThe use of automated pipelines in agriculture empowers researchers and practitioners to: - Monitor crop and soil conditions in real-time - Optimize irrigation, fertilization, and harvesting schedules - Detect anomalies or environmental stress factors early - Ensure the traceability and quality of agricultural data\nMoreover, when physical pipelines (e.g., for water or gas) intersect with agricultural land, data pipelines can help assess environmental impact and guide infrastructure planning. This synergy between digital technologies and agronomic practice fosters innovation, sustainability, and increased productivity in the agricultural sector."
   },
   {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "News",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "COUSIN project - Technical docs",
     "section": "",
-    "text": "Blog entries describing major events and updates."
+    "text": "This website centralizes technical documentation, use cases, best practices and training materials created in the HE COUSIN research project."
   },
   {
-    "objectID": "docs.html",
-    "href": "docs.html",
-    "title": "Documentation",
-    "section": "",
-    "text": "Links to relevant technical documentation."
+    "objectID": "index.html#key-features",
+    "href": "index.html#key-features",
+    "title": "COUSIN project - Technical docs",
+    "section": "🚀 Key Features",
+    "text": "🚀 Key Features\n\n🔍 Powerful similarity search and filtering tools\n🧬 Optimized for large-scale biological datasets\n🔐 Secure and collaborative data sharing\n📊 Integrated visualization dashboards"
   },
   {
-    "objectID": "use-cases.html",
-    "href": "use-cases.html",
-    "title": "Use cases",
-    "section": "",
-    "text": "In a public or institutional repository, an accession number is a distinct, reliable identifier linked to a genetic resource, biological specimen, or data entry.\nPlant varieties, seed samples, and genetic materials are frequently cataloged in gene banks and databases using accession numbers in agricultural research. Even though other metadata (like name or classification) may change over time, accession numbers guarantee consistent tracking, referencing, and retrieval.\nIn the COUSIN project, accession numbers are essential for connecting environmental, genotypic, and phenotypic data. This allows for:\n\nlong-term reproducibility\n\ndata consistency\n\nand interoperability across datasets."
+    "objectID": "index.html#latest-blog-posts",
+    "href": "index.html#latest-blog-posts",
+    "title": "COUSIN project - Technical docs",
+    "section": "📝 Latest Blog Posts",
+    "text": "📝 Latest Blog Posts\nCheck out our latest articles and updates on the Blog!\n\nHow Germinate streamlines data workflows in genomics\nData governance in biology: best practices\nBehind the scenes: building a scalable data pipeline"
   },
   {
-    "objectID": "use-cases.html#accession-numbers",
-    "href": "use-cases.html#accession-numbers",
-    "title": "Use cases",
-    "section": "",
-    "text": "In a public or institutional repository, an accession number is a distinct, reliable identifier linked to a genetic resource, biological specimen, or data entry.\nPlant varieties, seed samples, and genetic materials are frequently cataloged in gene banks and databases using accession numbers in agricultural research. Even though other metadata (like name or classification) may change over time, accession numbers guarantee consistent tracking, referencing, and retrieval.\nIn the COUSIN project, accession numbers are essential for connecting environmental, genotypic, and phenotypic data. This allows for:\n\nlong-term reproducibility\n\ndata consistency\n\nand interoperability across datasets."
+    "objectID": "index.html#get-involved",
+    "href": "index.html#get-involved",
+    "title": "COUSIN project - Technical docs",
+    "section": "💡 Get Involved",
+    "text": "💡 Get Involved\nGerminate is a collaborative project. If you’re a biologist, developer, or data scientist, join us to contribute!"
   },
   {
-    "objectID": "use-cases.html#wu",
-    "href": "use-cases.html#wu",
-    "title": "Use cases",
-    "section": "WU",
-    "text": "WU"
+    "objectID": "smart-cousin.html#purpose-scope",
+    "href": "smart-cousin.html#purpose-scope",
+    "title": "Smart COUSIN",
+    "section": "2.1 Purpose & Scope",
+    "text": "2.1 Purpose & Scope\n\nProblem Solved: Overcomes limitations of spreadsheets in handling complex, high-volume datasets (e.g., millions of genetic markers or phenotypic data points).\nMission: To standardize and democratize access to genetic resource data while ensuring FAIR compliance."
+  },
+  {
+    "objectID": "smart-cousin.html#data-types-supported",
+    "href": "smart-cousin.html#data-types-supported",
+    "title": "Smart COUSIN",
+    "section": "2.2 Data Types Supported",
+    "text": "2.2 Data Types Supported\nGerminate stores and integrates:\n\n\n\n\n\n\n\nData Category\nExamples\n\n\n\n\nPassport Data\nGermplasm identifiers, origins, collection details\n\n\nPhenotypic Data\nTrait measurements, growth characteristics\n\n\nGenetic Data\nSNP markers, haplotypes, genotypic profiles\n\n\nField Trial & Pedigree\nBreeding history, lineage relationships\n\n\nClimatic & Geographic\nEnvironmental variables, GPS coordinates\n\n\nMultimedia & Annotations\nUser-submitted images, notes, metadata\n\n\n\nNote: Continuously expanded (e.g., UAV/drone phenotyping in development)."
+  },
+  {
+    "objectID": "smart-cousin.html#technical-framework",
+    "href": "smart-cousin.html#technical-framework",
+    "title": "Smart COUSIN",
+    "section": "2.3 Technical Framework",
+    "text": "2.3 Technical Framework\n\nDevelopment: Created and maintained by the James Hutton Institute (Scotland) since 2005.\n\nStandards Compliance:\n\nFAO Multi-Crop Passport Descriptors (MCPD).\nDublin Core metadata.\nMIAPPE (in development).\nFAIR data principles.\n\nExport Flexibility:\n\nFormats: Plain text, Flapjack (genotyping), Helium (pedigree), HapMap.\nPhilosophy: “Any data entered can be extracted efficiently.”"
+  },
+  {
+    "objectID": "smart-cousin.html#accessibility-security",
+    "href": "smart-cousin.html#accessibility-security",
+    "title": "Smart COUSIN",
+    "section": "2.4 Accessibility & Security",
+    "text": "2.4 Accessibility & Security\nDeployment:\n\nFree installation via GitHub or Docker (supports Raspberry Pi).\nPublic demo databases for testing.\n\nUser Management:\n\nRole-based access (public vs. password-protected databases).\nGDPR-compliant privacy (emails used only for password recovery).\nSecure password encryption (no plaintext storage)."
+  },
+  {
+    "objectID": "smart-cousin.html#scientific-impact",
+    "href": "smart-cousin.html#scientific-impact",
+    "title": "Smart COUSIN",
+    "section": "2.5 Scientific Impact",
+    "text": "2.5 Scientific Impact\n\nScalability: Manages databases with “hundreds of thousands of plant lines and millions of data points.”\nGlobal Reach: Originally focused on barley/potato; now supports 25+ crops worldwide.\nCollaboration: Enables data sharing across institutions while maintaining reproducibility."
+  },
+  {
+    "objectID": "smart-cousin.html#key-workflow-integration",
+    "href": "smart-cousin.html#key-workflow-integration",
+    "title": "Smart COUSIN",
+    "section": "2.6 Key Workflow Integration",
+    "text": "2.6 Key Workflow Integration\n\n\n\n\n\ngraph LR\n\nA[Data Entry] --&gt; B[FAIR Storage in Germinate]\n\nB --&gt; C[Web-Based Exploration]\n\nC --&gt; D[Export for Analysis]\n\nD --&gt; E[Reproducible Research]"
+  },
+  {
+    "objectID": "smart-cousin.html#gatekeeper",
+    "href": "smart-cousin.html#gatekeeper",
+    "title": "Smart COUSIN",
+    "section": "2.7 GateKeeper",
+    "text": "2.7 GateKeeper\nGatekeeper is Germinate’s user management tool. It handles user registration, authentication and management and sits alongside multiple instances of Germinate."
+  },
+  {
+    "objectID": "smart-cousin.html#germinate",
+    "href": "smart-cousin.html#germinate",
+    "title": "Smart COUSIN",
+    "section": "3.1 Germinate",
+    "text": "3.1 Germinate\nYou can run Germinate in a variety of ways.\nThe Germinate Docker container is most likely the greatest choice if you are knowledgeable about Docker and containerisation. Assuming you already have a functional Docker environment, it requires the least amount of configuration. A manual build of Germinate will probably be your best bet if Docker is a foreign concept to you.\nThe next section will walk you through both situations and outline every step you need to take to get Germinate operational.\n\n3.1.1 Docker Setup\nLet’s begin with Docker, which is a simpler case. You can just pull and run our functional Docker image of Germinate on your computer or server by using DockerHub.\nYou will also require a MySQL database. This could be an existing database server or another Docker container. A Docker MySQL container is used in the examples that follow. Simply extract the pertinent sections from the docker file or docker commands if you want to use your own database.\nIt is as easy as defining this docker-compose.yml file if you have docker-compose installed. Modify only the sections with comments above them.\n \n services:\n\n  mail:\n      image: bytemark/smtp\n      restart: always\n      container_name: mail\n      \n  mysql:\n    image: mysql:${MYSQL_VERSION:-8.4.5}\n    ports:\n      - 9306:3306\n    volumes:\n      - mysql:/var/lib/mysql\n      - ./init.sql:/docker-entrypoint-initdb.d/init.sql\n    environment:\n      # The root password. This is not used by Germinate, but can be used to access the database externally\n      MYSQL_ROOT_PASSWORD: PASSWORD_HERE\n       # The name of the Germinate database, e.g. \"germinate\"\n      MYSQL_DATABASE: GERMINATE_DATABASE_NAME\n      # The username Germinate will use to connect to this database\n      MYSQL_USER: DATABASE_USER\n      # The password Germinate will use to connect to this database\n      MYSQL_PASSWORD: DATABASE_PASSWORD\n    restart: always\n    container_name: mysql\n \n  gatekeeper:\n      image: ${GATEKEEPER_IMAGE:-cropgeeks/gatekeeper}:${GATEKEEPER_VERSION:-release-4.8.6}\n      environment:\n        - JAVA_OPTS:-Xmx512m\n      volumes:\n        - type: bind\n          source: ./config/gatekeeper\n          target: /data/gatekeeper\n        - type: volume\n          source: gatekeeper\n          target: /usr/local/tomcat/temp\n      restart: always\n      container_name: gatekeeper\n      depends_on:\n        - mysql\n        - mail\n\n  germinate:\n      image: ${GERMINATE_IMAGE:-cropgeeks/germinate}:${GERMINATE_VERSION:-release-&lt;version&gt;}\n      environment:\n        - JAVA_OPTS:-Xmx512m\n      # old java -Xmx4g\n      volumes:\n        - type: bind\n          # This points to where your Germinate configuration folder is outside the container\n          source: ./config/germinate\n          target: /data/germinate\n        - type: volume\n          source: germinate\n          target: /usr/local/tomcat/temp\n      restart: always\n      container_name: germinate\n      depends_on:\n        - mysql\n\n  plausible_db:\n    image: postgres:16-alpine\n    restart: always\n    volumes:\n      - db-data:/var/lib/postgresql/data\n    environment:\n      - POSTGRES_PASSWORD=postgres\n    healthcheck:\n      test: [\"CMD-SHELL\", \"pg_isready -U postgres\"]\n      start_period: 1m\n    container_name: postgres\n\n  plausible_events_db:\n    image: clickhouse/clickhouse-server:24.3.3.102-alpine\n    restart: always\n    volumes:\n      - event-data:/var/lib/clickhouse\n      - event-logs:/var/log/clickhouse-server\n      - ./clickhouse/logs.xml:/etc/clickhouse-server/config.d/logs.xml:ro\n      - ./clickhouse/ipv4-only.xml:/etc/clickhouse-server/config.d/ipv4-only.xml:ro\n      - ./clickhouse/low-resources.xml:/etc/clickhouse-server/config.d/low-resources.xml:ro\n    ulimits:\n      nofile:\n        soft: 262144\n        hard: 262144\n    healthcheck:\n      test: [\"CMD-SHELL\", \"wget --no-verbose --tries=1 -O - http://127.0.0.1:8123/ping || exit 1\"]\n      start_period: 1m\n    container_name: plausible_events\n\n  plausible:\n    image: ghcr.io/plausible/community-edition:v2.1.4\n    restart: always\n    ports:\n      - 127.0.0.1:8000:8000\n    command: sh -c \"/entrypoint.sh db createdb && /entrypoint.sh db migrate && /entrypoint.sh run\"\n    depends_on:\n      plausible_db:\n        condition: service_healthy\n      plausible_events_db:\n        condition: service_healthy\n      mail:\n        condition: service_started\n    volumes:\n      - plausible-data:/var/lib/plausible\n    ulimits:\n      nofile:\n        soft: 65535\n        hard: 65535\n    environment:\n      - TMPDIR=/var/lib/plausible/tmp\n      - BASE_URL=http://localhost:8000\n      - SECRET_KEY_BASE=ypUt8oZXf+ntrG0AXyZgDkfp2ekKDOmb9a5JNrmH9+6ccwMJkrBoknMbFVmLG28e0+Jga0aGK6v+RufDzFsKYA==\n      - SMTP_HOST_ADDR=mail\n      - SMTP_HOST_PORT=25\n    container_name: plausible\n\n  #phpmyadmin 80\n  phpmyadmin:\n    image: phpmyadmin:${PHPMYADMIN_VERSION:-&lt;version&gt;}\n    restart: always\n    ports:\n      - ${PHPMYADMIN_PORT:-9300}:80\n    container_name: phpmyadmin\n    environment:\n      PMA_HOST: mysql\n    depends_on:\n      - mysql\n \n  # reverse-proxy\n  nginx:\n    image: nginx:${NGINX_VERSION:-&lt;version&gt;}\n    restart: always\n    container_name: nginx-proxy\n    ports:\n      - ${NGINX_EXTERNAL_PORT:-9090}:${NGINX_LISTENING_PORT:-80}\n    volumes:\n      - ./reverse-proxy/nginx.conf:/etc/nginx/nginx.conf\n      - ./reverse-proxy/certs:/etc/nginx/certs\n    depends_on:\n      - germinate\n      - gatekeeper\n\n volumes:\n  mysql:\n  germinate:\n  gatekeeper:\n  mail:\n  db-data:\n  event-data:\n  event-logs: \n  plausible-data:\n  phpmyadmin:\n  nginx:\n\n networks:\n  default:\n    name: ${NETWORK:-cousin-net}\n  \nVerify that the location at /path/to/your/germinate/config contains at least one config.properties file.\nNote: The database.server property in the config.properties file should be set to mysql when using the above setup since this is the address of the database within the Docker network. Kindly use the new name if you decide to rename the MySQL service.\n\n\n3.1.2 Possible Setup Diagram\n\n\n\nThe figure above shows Germinate (and Gatekeeper) using an externally provided MySQL server while they run as two Docker images in a Docker compose\nThis Docker compose setup dictates some of the properties in the config.properties files of Germinate and Gatekeeper respectively.\nFor Germinate it’ll look like this:\n# This is the Germinate MySQL Docker container name\ndatabase.server=germinate_mysql\ndatabase.name=germinate\ndatabase.username=germinate-username\ndatabase.password=germinate-password\n# Note, we're not using the 9306 port here. That's only for remote access.\ndatabase.port=3306\n\n# We're using the Docker container name of Gatekeeper here.\ngatekeeper.url=http://gatekeeper:8080\ngatekeeper.username=gatekeeper-username@email.com\ngatekeeper.password=gatekeeper-password\n\n# This is only true if trying to access it from the machine running Docker.\n# If you want the setup to be available from the outside world, use whatever your Proxy setup is configured as.\ngerminate.client.url=http://localhost:9080\n\n# This just tells Germinate where to find this config file from inside the Docker container\ndata.directory.external=/data/germinate\n\nauthentication.mode=SELECTIVE\n# This is only true if trying to access it from the machine running Docker.\n# If you want the setup to be available from the outside world, use whatever your Proxy setup is configured as.\ngerminate.client.url=http://localhost:9090/\n\n# This just tells Germinate where to find this config file from inside the Docker container\ndata.directory.external=/data/germinate\n\nauthentication.mode=SELECTIVE\nbrapi.enabled = false\nfiles.delete.after.hours.async = 12\nfiles.delete.after.hours.temp = 12\ngatekeeper.registration.requires.approval = true\npdci.enabled = true\ncolors.charts = #00a0f1,#5ec418,#910080,#222183,#ff7c00,#c5e000,#c83831,#ff007a,#fff600\ncolors.template = #FF9E15,#799900,#00748C,#853175,#555559,#FFD100,#C2002F,#CF009E,#6AA2B8,#D6C200\ncolors.gradient = #440154,#48186a,#472d7b,#424086,#3b528b,#33638d,#2c728e,#26828e,#21918c,#1fa088,#28ae80,#3fbc73,#5ec962,#84d44b,#addc30,#d8e219,#fde725\ncolor.primary = #20a8d8\ndashboard.categories = germplasm,markers,traits,locations\ndashboard.sections = publications,news,projects,dataupdates,datastories\nhidden.pages = \nhidden.pages.autodiscover = false\ngatekeeper.registration.enabled = false\ngdpr.notification.enabled = false\nplausible.hash.mode = true\nplausible.api.host = https://plausible.io\ncomments.enabled = true\ndata.import.mode = IMPORT\ngridscore.url = https://gridscore.hutton.ac.uk\nhelium.url = https://helium.hutton.ac.uk/\nfieldhub.url = https://ics.hutton.ac.uk/fieldhub/\nhidden.columns.germplasm = entityParentName,entityParentGeneralIdentifier,institutionId,institutionName,latitude,longitude,collDate\nhidden.columns.germplasm.attributes = \nhidden.columns.images = \nhidden.columns.climates = \nhidden.columns.climate.data = climateId\nhidden.columns.comments = commentForeignId,commentTypeId\nhidden.columns.fileresources = fileresourcetypeId\nhidden.columns.maps = \nhidden.columns.markers = \nhidden.columns.map.definitions = \nhidden.columns.datasets = experimentId\nhidden.columns.dataset.attributes = \nhidden.columns.experiments = \nhidden.columns.entities = \nhidden.columns.groups = userId\nhidden.columns.institutions = \nhidden.columns.locations = \nhidden.columns.pedigrees = \nhidden.columns.traits = \nhidden.columns.trials.data = traitId\nhidden.columns.collaborators = \nhidden.columns.publications ="
+  },
+  {
+    "objectID": "smart-cousin.html#gatekeeper-1",
+    "href": "smart-cousin.html#gatekeeper-1",
+    "title": "Smart COUSIN",
+    "section": "3.2 Gatekeeper",
+    "text": "3.2 Gatekeeper\nThis part describes the content of Gatekeeper’s configuration folder. This folder does not exist and has to be created somewhere on the system where Gatekeeper can access it. The folder only has to contain a single file: config.properties\nThe content of this file is explained below. This includes properties like the database details and user credentials as well as various customization options. The configuration should look ike this:\n\n# This is the Gatekeeper MySQL Docker container name\ndatabase.server=gatekeeper_mysql\ndatabase.name=gatekeeper\ndatabase.username=gatekeeper-username\ndatabase.password=gatekeeper-password\n# Note, we're not using the 9307 port here. That's only for remote access.\ndatabase.port=3306\n\n# Replace these with actual email properties\nemail.address=dummyemail@gmail.com\nemail.username=dummyemail@gmail.com\nemail.password=mysimplepassword\nemail.server=smtp.gmail.com\nemail.port=25\n\n# This is only true if trying to access it from the machine running Docker.\n# If you want the setup to be available from the outside world, use whatever your Proxy setup is configured as. \nweb.base=http://localhost:9081/\n\n3.2.1 Default Admin account\nWhen you run Gatekeeper for the first time, a default admin account is created. The default password for this account is simply “password”. Please change this immediately by logging in using the username “admin” and the aforementioned password.\nOnce running, you will need to create a new user in Gatekeeper that Germinate can use to authenticate itself. To this end, create a new user with Administrator permissions for the default Gatekeeper (not Germinate) database. You can then use the username and password of this new account in the Germinate configuration by providing: gatekeeper.username and gatekeeper.password.\n\n\n3.2.2 Gatekeeper: Adding Users\nIn the context of Gatekeeper, users fall into two categories:\n\nType 1 – Individual Users\nA genuine person who wants to access Germinate data.\nThese users log into Germinate with their email and password. Germinate then communicates with Gatekeeper to verify their access rights.\nType 2 – System Users\nA specific instance of Germinate trying to access the Gatekeeper database.\nThere should be one such user per Germinate instance. This user is configured using the gatekeeper.username and gatekeeper.password properties in the config.properties file of Germinate. This setup is typically done once during system deployment.\n\n\n\n3.2.3 Managing Type 1 Users (Individuals)\nTo add or manage individual users:\n\nLog in as an administrator in Gatekeeper.\nFrom the side menu, select “Active users”.\nA table appears showing all users currently registered in Gatekeeper.\nUse the search bar to filter and locate specific users.\n\nTo add a new user:\n\nClick the “Add user” button below the table.\n\n\n\n\n\nA new window opens asking for:\n\nFull Name\nInstitution (use the “+” button to add a new one if needed)\nEmail Address\nPassword (and confirmation)\n\n\n\n\n\nOnce added, the user will appear at the bottom of the table.\n\n\n3.2.4 Managing User Details and Permissions\nWhen you select a user from the table, additional information appears below:\n\nUser Information\n\nFull name\n\nEmail address\n\nInstitution\n\nAccount Settings\n\nOption to allow password reset via Gatekeeper login\n\nOption to delete the user\n\nSystem Permissions\n\nDisplays access rights per system (e.g., Germinate instance)\n\nUse the dropdown to change access level or delete permission\n\nAdd New Permissions\n\nChoose a system (Germinate or Gatekeeper)\n\nSelect permission level\n\nClick “Add” to assign permissions\n\n\n\n\n\n\n\n✅ Gatekeeper ensures secure, role-based access control across Germinate instances. Managing users properly guarantees both data security and user autonomy."
   },
   {
     "objectID": "Templates.html",
@@ -250,82 +306,5 @@
     "title": "Templates",
     "section": "Plain Text Format",
     "text": "Plain Text Format\nExample header rows:"
-  },
-  {
-    "objectID": "Standards.html",
-    "href": "Standards.html",
-    "title": "Standards",
-    "section": "",
-    "text": "The Food and Agriculture Organisation of the United Nations (FAO) and Bioversity International (formerly IPGRI) collaborated to create the Multi-Crop Passport Descriptors (MCPD), an internationally accepted data standard designed to facilitate consistent documentation and sharing of passport information for plant genetic resources (PGR) across various crops and collections.\nMCPD specifies a core set of descriptors—including accession identifier, taxon, geographical origin, holding institute, and biological status—to standardize the description and international exchange of germplasm data. By providing precise definitions, coding schemes, and recommended field names, MCPD enables data integration and interoperability with other systems and standards, such as crop-specific descriptor lists and the FAO World Information and Early Warning System (WIEWS).\nThanks to its adaptable structure, user networks can extend the descriptor list to meet specific needs while maintaining compatibility with the MCPD format. Widespread adoption by genebanks and research organizations worldwide makes MCPD a fundamental standard for exchanging, discovering, and managing plant genetic resource data."
-  },
-  {
-    "objectID": "Standards.html#mcpd",
-    "href": "Standards.html#mcpd",
-    "title": "Standards",
-    "section": "",
-    "text": "The Food and Agriculture Organisation of the United Nations (FAO) and Bioversity International (formerly IPGRI) collaborated to create the Multi-Crop Passport Descriptors (MCPD), an internationally accepted data standard designed to facilitate consistent documentation and sharing of passport information for plant genetic resources (PGR) across various crops and collections.\nMCPD specifies a core set of descriptors—including accession identifier, taxon, geographical origin, holding institute, and biological status—to standardize the description and international exchange of germplasm data. By providing precise definitions, coding schemes, and recommended field names, MCPD enables data integration and interoperability with other systems and standards, such as crop-specific descriptor lists and the FAO World Information and Early Warning System (WIEWS).\nThanks to its adaptable structure, user networks can extend the descriptor list to meet specific needs while maintaining compatibility with the MCPD format. Widespread adoption by genebanks and research organizations worldwide makes MCPD a fundamental standard for exchanging, discovering, and managing plant genetic resource data."
-  },
-  {
-    "objectID": "Standards.html#isa",
-    "href": "Standards.html#isa",
-    "title": "Standards",
-    "section": "ISA",
-    "text": "ISA\nIn life sciences, environmental, and biomedical research, the open-source, community-driven ISA (Investigation/Study/Assay) metadata tracking framework was developed to simplify the collection, curation, management, publication, and reuse of experimental data in a standards-compliant manner.\nThe ISA model is structured around three primary components: - Investigation: the overall project context, - Study: the unit of research, - Assay: analytical measurements conducted.\nThis hierarchy ensures transparency, reproducibility, and interoperability by allowing detailed descriptions of experimental metadata, including sample characteristics, technologies, measurement types, and sample-to-data relationships. The ISA software suite supports FAIR (Findable, Accessible, Interoperable, Reusable) data management through multiple serialization formats (ISA-Tab, ISA-JSON) and integration with numerous public repositories and analytical tools."
-  },
-  {
-    "objectID": "Standards.html#brapi",
-    "href": "Standards.html#brapi",
-    "title": "Standards",
-    "section": "BrAPI",
-    "text": "BrAPI\nThe open-source, standardized BrAPI (Breeding API) RESTful web service specification was designed to enable seamless integration and data exchange between tools, databases, and applications used in plant breeding.\nBrAPI supports interoperability throughout the breeding data lifecycle, covering project management, sample and germplasm tracking, and phenotypic and genotypic data collection and analysis. It establishes a common set of data models and API endpoints, ensuring adaptability and modularity.\nCompatibility with other data standards such as MIAPPE, MCPD, and ICASA makes BrAPI easy to implement across various programming languages. Maintained by a global community of software developers, data managers, and breeders, BrAPI is widely used in research and industry to enhance data sharing, collaboration, and innovation in plant breeding."
-  },
-  {
-    "objectID": "Standards.html#miappe",
-    "href": "Standards.html#miappe",
-    "title": "Standards",
-    "section": "MIAPPE",
-    "text": "MIAPPE\nThe open, community-driven MIAPPE (Minimum Information About a Plant Phenotyping Experiment) data standard was developed to standardize and facilitate the sharing, publishing, and reuse of experimental and computed data in plant phenotyping research.\nMIAPPE provides a comprehensive checklist and data model for metadata to ensure consistent and clear documentation of all relevant details, such as biological material, experimental design, observed variables, and environmental conditions.\nThe latest version (1.1) improves compatibility with frameworks like ISA-Tools and BrAPI, extends coverage to woody plants, and introduces a formal data model for better implementation and validation. By endorsing community vocabularies and adhering to FAIR data principles, MIAPPE enhances interoperability, automated validation, and data reusability across plant phenotyping experiments and platforms."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This site has been generated with Quarto, a software tool for scientific technical documentation suitable for different programming languages. To learn more about Quarto websites visit https://quarto.org/docs/websites.\nCOUSIN has also created a practical Quarto workshop, introducing its applications for scientific documentation and publishing."
-  },
-  {
-    "objectID": "about.html#creating-this-website",
-    "href": "about.html#creating-this-website",
-    "title": "About",
-    "section": "",
-    "text": "This site has been generated with Quarto, a software tool for scientific technical documentation suitable for different programming languages. To learn more about Quarto websites visit https://quarto.org/docs/websites.\nCOUSIN has also created a practical Quarto workshop, introducing its applications for scientific documentation and publishing."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "COUSIN project - Technical docs",
-    "section": "",
-    "text": "This website centralizes technical documentation, use cases, best practices and training materials created in the HE COUSIN research project."
-  },
-  {
-    "objectID": "index.html#key-features",
-    "href": "index.html#key-features",
-    "title": "COUSIN project - Technical docs",
-    "section": "🚀 Key Features",
-    "text": "🚀 Key Features\n\n🔍 Powerful similarity search and filtering tools\n🧬 Optimized for large-scale biological datasets\n🔐 Secure and collaborative data sharing\n📊 Integrated visualization dashboards"
-  },
-  {
-    "objectID": "index.html#latest-blog-posts",
-    "href": "index.html#latest-blog-posts",
-    "title": "COUSIN project - Technical docs",
-    "section": "📝 Latest Blog Posts",
-    "text": "📝 Latest Blog Posts\nCheck out our latest articles and updates on the Blog!\n\nHow Germinate streamlines data workflows in genomics\nData governance in biology: best practices\nBehind the scenes: building a scalable data pipeline"
-  },
-  {
-    "objectID": "index.html#get-involved",
-    "href": "index.html#get-involved",
-    "title": "COUSIN project - Technical docs",
-    "section": "💡 Get Involved",
-    "text": "💡 Get Involved\nGerminate is a collaborative project. If you’re a biologist, developer, or data scientist, join us to contribute!"
   }
 ]
