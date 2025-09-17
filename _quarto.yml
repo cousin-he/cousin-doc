@@ -28,7 +28,8 @@ website:
       - text: "Best practices"
         href: best-pracs.qmd
       - href: news.qmd
-
+      - text: "Workshops"
+        href: Workshops.qmd
 page-footer:
   center: "© 2025 Smart COUSIN - Germinate Platform. All rights reserved."
 
