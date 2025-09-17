@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "cousin-doc"
+  navbar:
+    left:
+      - href: about.qmd
+      - text: "Smart COUSIN"
+        menu:
+          - text: "Architecture"
+            href: smart-cousin.qmd
+          - text: "Tools"
+            href: tools.qmd
+          - text: "Germinate"
+            href: https://germinateplatform.github.io/get-germinate/
+          - text: "Gatekeeper"
+            href: https://www.gatekeeperhq.com/
+          - text: "Standards"
+            href: Standards.qmd
+          - text: "Templates"
+            href: Templates.qmd
+          - text: "Data Curation"
+            href: data-curation.qmd
+      - text: "Use cases"
+        href: use-cases.qmd
+      - text: "Best practices"
+        href: best-pracs.qmd
+      - href: news.qmd
+      - text: "Workshops"
+        href: Workshops.qmd
+page-footer:
+  center: "© 2025 Smart COUSIN - Germinate Platform. All rights reserved."
+
+format:
+  html:
+    theme: cosmos
+    css: styles.css
+    toc: true

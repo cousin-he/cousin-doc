@@ -1,0 +1,37 @@
+---
+title: "Standards"
+---
+## MCPD
+
+The Food and Agriculture Organisation of the United Nations (FAO) and Bioversity International (formerly IPGRI) collaborated to create the **Multi-Crop Passport Descriptors (MCPD)**, an internationally accepted data standard designed to facilitate consistent documentation and sharing of passport information for plant genetic resources (PGR) across various crops and collections. 
+
+MCPD specifies a core set of descriptors—including accession identifier, taxon, geographical origin, holding institute, and biological status—to standardize the description and international exchange of germplasm data. By providing precise definitions, coding schemes, and recommended field names, MCPD enables data integration and interoperability with other systems and standards, such as crop-specific descriptor lists and the FAO World Information and Early Warning System (WIEWS). 
+
+Thanks to its adaptable structure, user networks can extend the descriptor list to meet specific needs while maintaining compatibility with the MCPD format. Widespread adoption by genebanks and research organizations worldwide makes MCPD a fundamental standard for exchanging, discovering, and managing plant genetic resource data.
+
+## ISA
+
+In life sciences, environmental, and biomedical research, the open-source, community-driven **ISA (Investigation/Study/Assay)** metadata tracking framework was developed to simplify the collection, curation, management, publication, and reuse of experimental data in a standards-compliant manner.
+
+The ISA model is structured around three primary components:
+- **Investigation**: the overall project context,
+- **Study**: the unit of research,
+- **Assay**: analytical measurements conducted.
+
+This hierarchy ensures transparency, reproducibility, and interoperability by allowing detailed descriptions of experimental metadata, including sample characteristics, technologies, measurement types, and sample-to-data relationships. The ISA software suite supports FAIR (Findable, Accessible, Interoperable, Reusable) data management through multiple serialization formats (ISA-Tab, ISA-JSON) and integration with numerous public repositories and analytical tools.
+
+## BrAPI
+
+The open-source, standardized **BrAPI (Breeding API)** RESTful web service specification was designed to enable seamless integration and data exchange between tools, databases, and applications used in plant breeding.
+
+BrAPI supports interoperability throughout the breeding data lifecycle, covering project management, sample and germplasm tracking, and phenotypic and genotypic data collection and analysis. It establishes a common set of data models and API endpoints, ensuring adaptability and modularity.
+
+Compatibility with other data standards such as MIAPPE, MCPD, and ICASA makes BrAPI easy to implement across various programming languages. Maintained by a global community of software developers, data managers, and breeders, BrAPI is widely used in research and industry to enhance data sharing, collaboration, and innovation in plant breeding.
+
+## MIAPPE
+
+The open, community-driven **MIAPPE (Minimum Information About a Plant Phenotyping Experiment)** data standard was developed to standardize and facilitate the sharing, publishing, and reuse of experimental and computed data in plant phenotyping research.
+
+MIAPPE provides a comprehensive checklist and data model for metadata to ensure consistent and clear documentation of all relevant details, such as biological material, experimental design, observed variables, and environmental conditions.
+
+The latest version (1.1) improves compatibility with frameworks like ISA-Tools and BrAPI, extends coverage to woody plants, and introduces a formal data model for better implementation and validation. By endorsing community vocabularies and adhering to FAIR data principles, MIAPPE enhances interoperability, automated validation, and data reusability across plant phenotyping experiments and platforms.

@@ -1,0 +1,5 @@
+---
+title: "News"
+---
+
+Blog entries describing major events and updates.

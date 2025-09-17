@@ -1,0 +1,15 @@
+---
+title: "APIs"
+---
+
+## EURISCO
+
+EURISCO provides access to an extensive database of plant genetic resources through its API. This service enables users to manage, search, and retrieve detailed information about plant accessions held in European genebanks. 
+
+To support research and conservation, the EURISCO API allows queries based on various parameters such as species, accession numbers, and traits, facilitating efficient and precise data access.
+
+## MIAPPE API
+
+The **MIAPPE (Minimum Information About a Plant Phenotyping Experiment)** API standardizes access to plant phenotyping experiment metadata, ensuring consistency and interoperability in data exchange.
+
+By adhering to MIAPPE guidelines, this API enables researchers to submit, retrieve, and analyze data related to environmental and experimental conditions as well as detailed phenotypic information, thus supporting robust and reproducible plant phenotyping research.

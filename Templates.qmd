@@ -1,0 +1,94 @@
+---
+title: "Templates"
+format: html
+---
+
+# Environmental Data
+
+## Metadata
+
+A selection of terms from the **Dublin Core Metadata Initiative** is included. While `VALUE` holds your data, `LABEL` and `DEFINITION` provide definitions.  
+**Title** and **Description** fields are mandatory and will be used in **Germinate** to describe the dataset.
+
+Additional **MIAPPE** fields include:
+- Investigation Title / Description
+- Unique ID
+- Associated data file link / description / version
+
+## Attributes
+
+Use attributes to describe additional information (e.g., **pesticides**, **irrigation**, **fertilizers**).  
+Each row must contain a single attribute of type: `numeric`, `date`, `text`, or `categorical`.
+
+## Location
+
+(Optional) Link geographical sites to your dataset. Use a separate template copy for each site.
+
+## Collaborators
+
+Specify contributors to the dataset.  
+**First Name** and **Last Name** are required fields.
+
+## Environment Variables
+
+Characteristics are described here. Only **Name** and **Data Type** are mandatory.  
+`Data Type` must be one of: `text`, `date`, `numeric`, or `categorical`.
+
+- **Short name** and **unit abbreviation** must be ≤ 10 characters.
+
+## Data
+
+Define your environmental data here:
+
+- Rows from `A2` downward = germplasm entries
+- Use the `ACCENUMB` field for identification
+- Columns from `D2` onward = traits (refer to `Name` column in *Environment Variables*)
+
+- **Date** field is mandatory (format `YYYY-MM-DD`)
+- Leave empty cells for missing data (`NA`, dashes, or other symbols are not allowed)
+
+---
+
+# Genotypic Data
+
+Two formats:
+- Excel template: recommended for **small datasets**
+- Plain text (tab-delimited): required for **large datasets**
+
+## Metadata
+
+Same structure as above. Use **Dublin Core** and **MIAPPE** fields.  
+
+Germinate-specific fields:
+- Map Name
+- Marker Technology
+- Genetic / Physical
+- Map Units
+
+## Location
+
+(Optional) Geographic site linked to the dataset.
+
+## Collaborators
+
+List contributors (First and Last names required).
+
+## Data
+
+- Rows from `A4` = germplasm (use `ACCENUMB`)
+- Columns from `B3` = markers (identified by name)
+
+### Optional Map
+
+Use rows 1–2 for map info. Leave empty if unused, but **do not remove row labels** (`A1`, `A2`).
+
+### Allele Calls
+
+- Start at cell `B4`
+- Use formats like `A`, `T/A`, `G/C`, `A/B`, or `0/1`
+- One character = **homozygous**, two characters = **heterozygous**
+- Use empty cells for missing values
+
+## Plain Text Format
+
+Example header rows:
