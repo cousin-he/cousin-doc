@@ -1,9 +1,22 @@
 ---
-title: "Workshops"
+title: "COUSIN Workshops"
+format:
+  html:
+    toc: false
+    theme: cosmo
 ---
-## List of Workshops:
-Date:15/10/2025 : enlace Workshop URJC [Workshop URJC](https://quarto.org)
 
-## Workshop URJC
+# 🌱 COUSIN Workshop Website
+
+Welcome to the **COUSIN Workshop Website**.  
+This platform gathers all the **documentation, tutorials, and practical guides** required for researchers, engineers, and students working on the **COUSIN project**.
+
+---
+## 📅 List of Workshops:
+- **15/10/2025** → Workshop URJC  
+  🔗 [Workshop URJC](https://cousin-he.github.io/data-pipelines/)  
+
+
+
 
 
